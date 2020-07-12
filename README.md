@@ -32,6 +32,7 @@ I used the following languages, frameworks and libraries to build this website:
 - [BootStrap](https://getbootstrap.com/) - BootStrap was used to provide a grid structure and other features such as **TBC**
 - [Lightbox](https://www.lokeshdhakar.com/projects/lightbox2/) - 
 - [FontAwesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
 - **TBC**
 
 ## Testing
@@ -45,6 +46,8 @@ I used the following languages, frameworks and libraries to build this website:
 ## Credits
 
 ### content
+
+- In the nav element, the toggle code was copied from BootStrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
 
 **TBC**
 
