@@ -1,39 +1,57 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# One Day In May
 
-Welcome LukeGarnham,
+My project is aimed at supporters of Ipswich Town Football Club.  The club and fans recently marked 20 years since they won promotion to the Premier League with former players joining podcasts and local radio stations to discuss their team mates, the highs and lows of the thrilling trilogy of playoff matches and the celebrations that followed.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+My website serves as a hub for fans to relive the experience and for younger fans who weren't around at the time, to learn about what happened and who the players were.  Along with the homepage, I have focused on 3 pages:
+- Highlights - I have embedded YouTube highlights of the 3 games and a description of what happened in each.
+- Meet the Players - This page introduces some of the key players and their contributions.  There is a photo gallery for each player.
+- Share - I invite users to share their memories of the playoffs by completing a form.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**TBC**
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+### Existing features
 
-Another blue button should appear to click: *Open Browser*.
+**TBC**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Features for future implementation
 
-A blue button should appear to click: *Make Public*,
+If I was to continue the development of this website, I would look to add:
+- A page for users to buy merchandise and memorabilia such as kits, matchday programmes, etc.
+- A "Your Memories" page containing the photos and memories that people have uploaded to the website.
+- A "What Happened Next" page which explains what happened to the team and the players after winning promotion.
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+I used the following languages, frameworks and libraries to build this website:
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - HTML5 was used to code the content of the website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS3 was used to style the content.
+- [BootStrap](https://getbootstrap.com/) - BootStrap was used to provide a grid structure and other features such as **TBC**
+- [Lightbox](https://www.lokeshdhakar.com/projects/lightbox2/) - 
+- [FontAwesome](https://fontawesome.com/)
+- **TBC**
 
-## Updates Since The Instructional Video
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+**TBC**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**TBC**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### content
 
---------
+**TBC**
 
-Happy coding!
+### Media
+
+**TBC**
+
+### Acknowledgements
+
+**TBC**
