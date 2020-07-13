@@ -13,29 +13,29 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm fixed-top">
+        <nav class="navbar navbar-expand-sm">
             <a href="index.html">
-                <img class="logo-image d-none d-md-inline-block align-middle" src="/assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
+                <img class="logo-image d-none d-md-inline-block" src="/assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
                 <span class="navbar-brand uppercase align-middle">One Day In May</span>
             </a>
 
             <!--The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <!--I changed the below line to insert a more customisable menu icon.-->
+            <!--I changed the below line to insert a more customisable menu icon from FontAwesome.-->
                 <i class="fas fa-bars navbar-toggler__icon"></i>
             </button>
-            <!--End of copied snippet.-->
+            <!--End of copied code snippet.-->
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active border__right--white">Home</a>
+                        <a href="index.html" class="nav-link active border-right--white">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link border__right--white">Highlights</a>
+                        <a href="#" class="nav-link border-right--white">Highlights</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link border__right--white">Meet the Players</a>
+                        <a href="#" class="nav-link border-right--white">Meet the Players</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Share</a>
@@ -49,6 +49,30 @@
     </section>
 
     <footer>
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="col-md-3 d-none d-md-inline footer__column--left">
+                    column1
+                </div>
+                <div class="col-md-6 footer__column--center">
+                    <span class="d-block d-md-inline">Follow ITFC on Social Media:</span>
+                        <span">
+                            <a href="https://www.facebook.com/officialitfc/" target="_blank">
+                                <i class="fab fa-facebook-square footer__icon"></i>
+                            </a>
+                            <a href="https://twitter.com/IpswichTown" target="_blank">
+                                <i class="fab fa-twitter-square footer__icon"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ipswichtown/?hl=en" target="_blank">
+                                <i class="fab fa-instagram-square footer__icon"></i>
+                            </a>
+                    </span>
+                </div>
+                <div class="col-md-3 d-none d-md-inline footer__column--right">
+                    column3
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!--BootStrap JavaScript links-->

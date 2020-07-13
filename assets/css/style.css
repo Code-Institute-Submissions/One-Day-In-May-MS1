@@ -23,7 +23,7 @@ body {
 }
 
 .logo-image {
-    max-height: 50px;
+    max-height: 60px;
 }
 
 .navbar-brand {
@@ -37,11 +37,7 @@ body {
     font-size: 18px;
 }
 
-.nav-link:hover {
-    color: #DDE1E4;
-}
-
-.border__right--white {
+.border-right--white {
     border-right: 1px solid #ffffff;
 }
 
@@ -52,4 +48,42 @@ body {
 
 .active {
     text-decoration: underline;
+}
+
+/*----------------------------------------------Navbar Pseudo Classes*/
+
+.navbar>a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #DDE1E4;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------Footer*/
+
+.footer {
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #9e3242;
+    padding: 5px 30px;
+}
+
+.footer__column--left {
+    text-align: left;
+}
+
+.footer__column--center {
+    text-align: center;
+}
+
+.footer__column--right {
+    text-align: right;
+}
+
+.footer__icon {
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 8px;
 }
