@@ -45,6 +45,11 @@ body {
     border-right: 1px solid #ffffff;
 }
 
+.navbar-toggler__icon {
+    color: #ffffff;
+    font-size: 30px;
+}
+
 .active {
     text-decoration: underline;
 }
