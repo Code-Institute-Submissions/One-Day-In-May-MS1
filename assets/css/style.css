@@ -63,15 +63,22 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------------------Footer*/
 
-.footer {
+.footer__row {
     color: #ffffff;
     font-family: 'Didact Gothic', sans-serif;
     background-color: #9e3242;
     padding: 5px 30px;
+    display: flex;
+    align-items: center;
 }
 
 .footer__column--left {
     text-align: left;
+}
+
+.icon__copyright {
+    color: #ffffff;
+    font-size: 15px;
 }
 
 .footer__column--center {
@@ -82,8 +89,24 @@ body {
     text-align: right;
 }
 
+.author {
+    color: #ffffff;
+    font-size: 15px;
+}
+
 .footer__icon {
     font-size: 30px;
     color: #ffffff;
-    margin-right: 8px;
+    margin: 5px 8px;
+    vertical-align: middle;
+}
+
+/*--------------------------------------------------------------------------------------------------------------Jumbotron*/
+
+.hero-image {
+    background-image: url("/assets/images/itfc-promotion-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 500px;
 }
