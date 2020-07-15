@@ -139,20 +139,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-    color: #dde1e4;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: #DDE1E4;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     height: 100%;
     width: 100%;
-    padding: 5% 5%;
+    padding: 2% 5%;
 }
 
-.jumbotron h1 {
-    font-size: 35px;
+.jumbotron__text {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
-.jumbotron p {
-    /* font-weight: bold; */
+.lead {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    align-items: right;
+    text-align: right;
+    font-size: 25px;
 }
 
 /*-----------------------------------------------------------------------------------------------Home page - Introduction*/
