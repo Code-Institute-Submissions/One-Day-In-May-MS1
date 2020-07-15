@@ -20,6 +20,10 @@ body {
     text-decoration: underline;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Didact Gothic', sans-serif;
 }
@@ -116,15 +120,39 @@ h1, h2, h3, h4, h5, h6 {
     margin: 5px 8px;
 }
 
-/*--------------------------------------------------------------------------------------------------------------Jumbotron*/
+/*------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
 
-.hero-image {
+.callout {
     background-image: url("/assets/images/itfc-promotion-1.jpg");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 500px;
+    height: 70vh;
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    color: #dde1e4;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5% 5%;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+}
+
+.jumbotron p {
+    /* font-weight: bold; */
 }
 
 /*-----------------------------------------------------------------------------------------------Home page - Introduction*/
@@ -144,6 +172,10 @@ h1, h2, h3, h4, h5, h6 {
 .shortcuts {
     padding: 30px 10% 20px 10%;
     text-align: center;
+}
+
+.shortcuts__header {
+    color: #000000;
 }
 
 /*-------------------------------------------------------------------------------------------Media Queries (small screen)*/
