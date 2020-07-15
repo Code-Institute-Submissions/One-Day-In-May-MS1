@@ -9,7 +9,11 @@ My website serves as a hub for fans to relive the experience and for younger fan
 
 ## UX
 
-**TBC**
+The website is aimed at ITFC fans so I envisage users will be a variety of age ranges.  I envisage many users accessing the site on their mobile phones, perhaps during half-time of a match.  I have tried to make each page bitesize so users do not need to scroll down pages of text.
+
+Since the name of the website doesn't make it immediately clear that it is for ITFC fans, I have tried to grab users attention to let them know.  On the home page, I have used a jumbotron showing players celebrating and I have used club colours in the navigation bar.  On medium sized screens upwards, the navigation bar also features the club badge.
+
+I want users to quickly learn what content the site hosts - otherwise they may leave.  To address this, I have included a brief introduction on the home page followed by links to each of the 3 pages and a short explanation of what each page contains.
 
 ## Features
 
@@ -47,7 +51,7 @@ I used the following languages, frameworks and libraries to build this website:
 
 ### content
 
-- All CDN links copied from the respective sources.
+- All CDN links copied from the respective sources - see links above in the **"Technologies Used"** section.
 - In the nav element, the toggle code was copied from BootStrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
 
 **TBC**
