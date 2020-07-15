@@ -31,6 +31,12 @@ body {
     color: #ffffff;
 }
 
+.nav-item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
 .nav-link {
     font-family: 'Didact Gothic', sans-serif; 
     color: #ffffff;
@@ -100,7 +106,6 @@ body {
     font-size: 30px;
     color: #ffffff;
     margin: 5px 8px;
-    vertical-align: middle;
 }
 
 /*--------------------------------------------------------------------------------------------------------------Jumbotron*/
@@ -111,4 +116,22 @@ body {
     background-repeat: no-repeat;
     background-position: center top;
     height: 500px;
+}
+
+/*-------------------------------------------------------------------------------------------Media Queries (small screen)*/
+
+@media screen and (max-width: 576px) {
+
+    /* Ensure the right border doesn't show  on mobile nav links*/
+
+    .nav-link {
+        border: none;
+    }
+
+    /* Ensure social media items in footer center column appear as block items (text above, icons below - not side to side) */
+
+    .footer__column--center {
+        display: block;
+    }
+
 }

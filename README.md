@@ -47,6 +47,7 @@ I used the following languages, frameworks and libraries to build this website:
 
 ### content
 
+- All CDN links copied from the respective sources.
 - In the nav element, the toggle code was copied from BootStrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
 
 **TBC**
