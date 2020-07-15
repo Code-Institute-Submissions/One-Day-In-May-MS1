@@ -67,8 +67,7 @@ body {
     color: #ffffff;
     font-family: 'Didact Gothic', sans-serif;
     background-color: #9e3242;
-    padding: 5px 30px;
-    display: flex;
+    padding: 5px 20px;
     align-items: center;
 }
 
@@ -83,6 +82,9 @@ body {
 
 .footer__column--center {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer__column--right {
