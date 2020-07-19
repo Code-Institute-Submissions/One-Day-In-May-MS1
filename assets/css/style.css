@@ -117,6 +117,13 @@ a:hover {
     font-size: 30px;
     color: #ffffff;
     margin: 5px 8px;
+    transition: transform .5s;
+}
+
+/*----------------------------------------------Footer Pseudo Classes*/
+
+.footer__icon:hover {
+    transform: scale(1.1);
 }
 
 /*------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
@@ -173,6 +180,10 @@ a:hover {
     padding-bottom: 10px;
 }
 
+.introduction p {
+    font-size: 18px;
+}
+
 /*--------------------------------------------------------------------------------------------------Home page - Shortcuts*/
 
 .shortcuts {
@@ -184,7 +195,7 @@ a:hover {
     padding: 0px 30px;
 }
 
-.shortcut__icon-container {
+.shortcuts__icon-container {
     border: 5px solid #3d3b62;
     border-radius: 50%;
     width: 100%;
@@ -192,14 +203,14 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.shortcut__aspect-ratio {
+.shortcuts__aspect-ratio {
     margin-top: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.shortcut__icon {
+.shortcuts__icon {
     font-size: 12vw;
     color: #3d3b62;
     position: absolute;
@@ -220,16 +231,17 @@ a:hover {
 
 .shortcuts p {
     color: #3d3b62;
+    font-size: 18px;
 }
 
-/*----------------------------------------------General Pseudo Classes*/
+/*----------------------------------------------Home Page - Shortcuts Pseudo Classes*/
 
-.shortcut__icon:hover {
+.shortcuts__icon:hover {
     transform: scale(1.1);
     color: #ffffff;
 }
 
-.shortcut__icon-container:hover {
+.shortcuts__icon-container:hover {
     background-color: #3d3b62;
     border-color: #ffffff;
 }
@@ -261,7 +273,7 @@ a:hover {
 
     /* To make the shortcut icons responsive on the home page, I had to use viewport to size the font.  Hoever, on mobile this makes the icons too small.  This rule make the icons and borders look better on mobile. */
 
-    .shortcut__icon {
+    .shortcuts__icon {
         font-size: 30vw;
         padding: 25%;
     }
