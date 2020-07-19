@@ -28,8 +28,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-.anchor__hover-effect:hover {
+/*----------------------------------------------General Pseudo Classes*/
+
+.a__hover-effect:hover {
     color: #DDE1E4;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------Navbar*/
@@ -70,12 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .active {
     text-decoration: underline;
-}
-
-/*----------------------------------------------Navbar Pseudo Classes*/
-
-.navbar>a:hover {
-    text-decoration: none;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------Footer*/

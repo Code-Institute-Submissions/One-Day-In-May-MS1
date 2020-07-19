@@ -34,6 +34,7 @@ I used the following languages, frameworks and libraries to build this website:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - HTML5 was used to code the content of the website.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS3 was used to style the content.
 - [BootStrap](https://getbootstrap.com/) - BootStrap was used to provide a grid structure and other features such as **TBC**
+- [Hover](https://ianlunn.github.io/Hover/) - This library was used to apply extra hover effects to various elements such as **TBC**
 - [Lightbox](https://www.lokeshdhakar.com/projects/lightbox2/) - 
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
