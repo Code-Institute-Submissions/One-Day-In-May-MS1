@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-sm">
             <a href="index.html">
                 <img class="logo-image d-none d-md-inline-block" src="/assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
-                <span class="navbar-brand uppercase a__hover-effect align-middle">One Day In May</span>
+                <span class="navbar-brand uppercase a__hover--grey align-middle">One Day In May</span>
             </a>
 
             <!--The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav -->
@@ -29,19 +29,20 @@
             </button>
             <!--End of copied code snippet.-->
 
+            <!--Navigation links (Unordered list)-->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link a__hover-effect border-right--white ">Home</a>
+                        <a href="index.html" class="nav-link a__hover--grey active border-right--white ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="highlights.html" class="nav-link a__hover-effect border-right--white">Highlights</a>
+                        <a href="highlights.html" class="nav-link a__hover--grey border-right--white">Highlights</a>
                     </li>
                     <li class="nav-item">
-                        <a href="meet-the-players.html" class="nav-link a__hover-effect active border-right--white">Meet the Players</a>
+                        <a href="meet-the-players.html" class="nav-link a__hover--grey border-right--white">Meet the Players</a>
                     </li>
                     <li class="nav-item">
-                        <a href="share.html" class="nav-link a__hover-effect">Share</a>
+                        <a href="share.html" class="nav-link a__hover--grey">Share</a>
                     </li>
                 </ul>
             </div>
@@ -54,24 +55,27 @@
     <footer>
         <div class="container-fluid">
             <div class="row footer__row">
+                <!--Footer 1st column contains copyright - visible on medium screen sizes and up-->
                 <div class="col-md-3 d-none d-md-inline footer__column--left">
                     <i class="far fa-copyright icon__copyright"></i>
                     <span class="icon__copyright">2020</span>
                 </div>
+                <!--Footer 2nd column contains social media links - links open in new window-->
                 <div class="col-md-6 footer__column--center">
                     <div>Follow ITFC on Social Media:</div>
                     <div>
-                        <a href="https://www.facebook.com/officialitfc/" target="_blank"">
-                            <i class="fab fa-facebook-square footer__icon  a__hover-effect"></i>
+                        <a href="https://www.facebook.com/officialitfc/" target="_blank">
+                            <i class="fab fa-facebook-square footer__icon a__hover--grey"></i>
                         </a>
                         <a href="https://twitter.com/IpswichTown" target="_blank">
-                            <i class="fab fa-twitter-square footer__icon  a__hover-effect"></i>
+                            <i class="fab fa-twitter-square footer__icon a__hover--grey"></i>
                         </a>
                         <a href="https://www.instagram.com/ipswichtown/?hl=en" target="_blank">
-                            <i class="fab fa-instagram-square footer__icon  a__hover-effect"></i>
+                            <i class="fab fa-instagram-square footer__icon a__hover--grey"></i>
                         </a>
                     </div>
                 </div>
+                <!--Footer 3rd column contains author name - visible on medium screen sizes and up-->
                 <div class="col-md-3 d-none d-md-inline footer__column--right">
                     <span class="author">Author: Luke Garnham</span>
                 </div>
