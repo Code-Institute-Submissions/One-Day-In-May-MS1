@@ -191,7 +191,7 @@ a:hover {
 
 .introduction {
     background-color: #DDE1E4;
-    padding: 30px 10% 20px 10%;
+    padding: 30px 5% 20px 5%;
     text-align: center;
 }
 
@@ -206,7 +206,7 @@ a:hover {
 /*--------------------------------------------------------------------------------------------------Home page - Shortcuts*/
 
 .shortcuts {
-    padding: 30px 10% 20px 10%;
+    padding: 30px 5% 20px 5%;
     text-align: center;
 }
 
@@ -217,9 +217,11 @@ a:hover {
 .shortcuts__icon-container {
     border: 5px solid #3d3b62;
     border-radius: 50%;
-    width: 100%;
+    width: 70%;
     position: relative;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shortcuts__aspect-ratio {
@@ -230,7 +232,7 @@ a:hover {
 }
 
 .shortcuts__icon {
-    font-size: 12vw;
+    font-size: 10vw;
     color: #3d3b62;
     position: absolute;
     top: 0;
@@ -293,7 +295,7 @@ a:hover {
     /* To make the shortcut icons responsive on the home page, I had to use viewport to size the font.  Hoever, on mobile this makes the icons too small.  This rule make the icons and borders look better on mobile. */
 
     .shortcuts__icon {
-        font-size: 30vw;
+        font-size: 18vw;
         padding: 25%;
     }
 
