@@ -128,7 +128,7 @@ a:hover {
 
 /*------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
 
-.callout {
+.hero-image {
     background-image: url("/assets/images/itfc-promotion-1.jpg");
     background-size: cover;
     -webkit-background-size: cover;
@@ -141,6 +141,25 @@ a:hover {
     align-items: center;
     justify-content: center;
     position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.callout {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.05);
+    }
+    to {
+        transform: (1);
+    }
 }
 
 .jumbotron {
