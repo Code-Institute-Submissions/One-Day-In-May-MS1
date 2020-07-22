@@ -33,7 +33,7 @@ If I was to continue the development of this website, I would look to add:
 I used the following languages, frameworks and libraries to build this website:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - HTML5 was used to code the content of the website.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS3 was used to style the content.
-- [BootStrap](https://getbootstrap.com/) - BootStrap was used to provide a grid structure and other features such as **TBC**
+- [BootStrap](https://getbootstrap.com/) - BootStrap was used to provide a grid structure and other features such as the tabs on the hihglights page.**TBC**
 - [Hover](https://ianlunn.github.io/Hover/) - This library was used to apply extra hover effects to various elements such as **TBC**
 - [Lightbox](https://www.lokeshdhakar.com/projects/lightbox2/) - 
 - [FontAwesome](https://fontawesome.com/)
@@ -53,7 +53,8 @@ I used the following languages, frameworks and libraries to build this website:
 ### content
 
 - All CDN links copied from the respective sources - see links above in the **"Technologies Used"** section.
-- In the nav element, the toggle code was copied from BootStrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
+- In the nav element, the code used to create a toggle menu on small screen sizes was copied from BootStrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
+- On the highlights page, I created tabs to separate the highlights of the 3 matches.  I copied code from Bootstrap to achieve this:  https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior
 
 **TBC**
 

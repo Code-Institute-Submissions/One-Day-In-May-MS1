@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link a__hover--grey border-right--white ">Home</a>
+                        <a href="index.html" class="nav-link a__hover--grey border-right--white">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="highlights.html" class="nav-link a__hover--grey active-page border-right--white">Highlights</a>
@@ -52,7 +52,7 @@
     <article>
         <!--1st section is the background and league table-->
         <section>
-            <div class="container-fluid text-block">
+            <div class="container-fluid text-block--grey">
                 <!-- 1st row contains header and link to highlights further down the page -->
                 <div class="row">
                     <div class="col">
@@ -85,8 +85,11 @@
         </section>
         <!-- 2nd section contains the highlights -->
         <section id="highlights">
+        <div class="text-block--blue">
+            <h2 class="uppercase font-bold">Highlights</h2>
+        </div>
         <!-- The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior -->
-        <!-- The ordered list and div content has been amended from the original copied code -->
+        <!-- The ordered list below has been amended from the original copied code -->
         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active a__hover--bold a__hover--underline" id="game-1-tab" data-toggle="tab" href="#game-1" role="tab" aria-controls="game-1" aria-selected="true">
@@ -113,8 +116,74 @@
             </a>
         </li>
         </ul>
+        <!-- The contents of the below "tab-pane" divs is not been copied code  -->
         <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="game-1" role="tabpanel" aria-labelledby="game-1-tab">Game 1</div>
+        <div class="tab-pane fade show active" id="game-1" role="tabpanel" aria-labelledby="game-1-tab">
+            <div class="container-fluid text-block--white">
+                <!-- 1st row is 1 column for date and venue -->
+                <div class="row">
+                    <div class="col">
+                        <h5 class="uppercase font-bold">14 May 2000 - Reebok Stadium</h5>
+                    </div>
+                </div>
+                <!-- 2nd row contains teams and score -->
+                <div class="row result">
+                    <div class="col-5 home-team">
+                        <h3 class="uppercase">Bolton Wanderers</h3>
+                    </div>
+                    <div class="col-2">
+                        <h2 class="score">2 - 2</h2>
+                    </div>
+                    <div class="col-5 away-team">
+                        <h3 class="uppercase">Ipswich Town</h3>
+                    </div>
+                </div>
+                <div class="row scorers">
+                    <div class="col-5 home-team">
+                        <div>
+                            Holdsworth 5' 
+                            <span class="d-none d-md-inline">
+                                <i class="fas fa-futbol"></i>
+                            </span>
+                        </div>
+                        <div>
+                            Gudjohnsen 26' 
+                            <span class="d-none d-md-inline">
+                                <i class="fas fa-futbol"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-5 offset-2 away-team">
+                        <div>
+                            <span class="d-none d-md-inline">
+                                <i class="fas fa-futbol"></i>
+                                <i class="fas fa-futbol"></i>
+                            </span>
+                            Stewart 36' 65'
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd row contains the YouTube higlights and match summary -->
+                <div class="row">
+                    <div class="col">
+                        <div class="video-container">
+                            <!-- The below embed code snippet was copied from YouTube:  https://www.youtube.com/watch?v=uzy3y_B1LJ0 -->
+                            <!-- I changed the width property to 100% to span the whole column -->
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uzy3y_B1LJ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!-- End of copied snippet -->
+                        </div>
+                        <div>
+                            <h6 class="uppercase font-bold">Match Summary</h6>
+                            <div class="match-summary">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
+                                <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
+                                <p>Sed ac laoreet lacus. Maecenas volutpat, metus eget blandit interdum, quam odio convallis arcu, quis consectetur ligula justo ac sem. Donec eget lectus consequat, consectetur dolor eu, tristique erat. Praesent porta sagittis lacus ut mattis. Etiam ac nibh vel lacus fringilla egestas. Pellentesque erat arcu, pellentesque et vehicula at, pulvinar ac quam. Proin mi erat, dictum et sem sed, facilisis elementum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="tab-pane fade" id="game-2" role="tabpanel" aria-labelledby="game-2-tab">Game 2</div>
         <div class="tab-pane fade" id="game-3" role="tabpanel" aria-labelledby="game-3-tab">Game 3</div>
         </div>
