@@ -36,7 +36,7 @@
                         <a href="index.html" class="nav-link a__hover--grey border-right--white ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="highlights.html" class="nav-link a__hover--grey active border-right--white">Highlights</a>
+                        <a href="highlights.html" class="nav-link a__hover--grey active-page border-right--white">Highlights</a>
                     </li>
                     <li class="nav-item">
                         <a href="meet-the-players.html" class="nav-link a__hover--grey border-right--white">Meet the Players</a>
@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col">
                         <h2 class="uppercase font-bold">Background</h2>
-                        <a href="#" class="underline a__hover--bold a__hover--underline">Jump straight to highlights</a>
+                        <a href="#highlights" class="underline a__hover--bold a__hover--underline">Jump straight to highlights</a>
                     </div>
                 </div>
                 <!-- 2nd row contains the background text (paragraphs) and league table -->
@@ -84,26 +84,40 @@
             </div>
         </section>
         <!-- 2nd section contains the highlights -->
-        <section>
+        <section id="highlights">
         <!-- The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior -->
-        <!-- The ordered list has been amended from the original copied code for the purposes of this page -->
+        <!-- The ordered list and div content has been amended from the original copied code -->
         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            <a class="nav-link active a__hover--bold a__hover--underline" id="game-1-tab" data-toggle="tab" href="#game-1" role="tab" aria-controls="game-1" aria-selected="true">
+                Game 1
+                <span class="d-none d-lg-inline">
+                     - Bolton (Reebok Stadium)
+                </span>
+            </a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+            <a class="nav-link a__hover--bold a__hover--underline" id="game-2-tab" data-toggle="tab" href="#game-2" role="tab" aria-controls="game-2" aria-selected="false">
+                Game 2
+                <span class="d-none d-lg-inline">
+                     - Bolton (Portman Road)
+                </span>
+            </a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            <a class="nav-link a__hover--bold a__hover--underline" id="game-3-tab" data-toggle="tab" href="#game-3" role="tab" aria-controls="game-3" aria-selected="false">
+            Game 3
+                <span class="d-none d-lg-inline">
+                     - Barnsley (Wembley Stadium)
+                </span>
+            </a>
         </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        <div class="tab-pane fade show active" id="game-1" role="tabpanel" aria-labelledby="game-1-tab">Game 1</div>
+        <div class="tab-pane fade" id="game-2" role="tabpanel" aria-labelledby="game-2-tab">Game 2</div>
+        <div class="tab-pane fade" id="game-3" role="tabpanel" aria-labelledby="game-3-tab">Game 3</div>
         </div>
-        <!-- End of copied code snippet -->
         </section>
     </article>
 

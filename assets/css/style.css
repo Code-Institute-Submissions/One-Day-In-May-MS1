@@ -88,7 +88,7 @@ a:hover {
     font-size: 30px;
 }
 
-.active {
+.active-page {
     text-decoration: underline;
 }
 
@@ -305,6 +305,25 @@ a:hover {
     float: right;
 }
 
+/*----------------------------------------------------------------------------------------------------------Highlights page - Highlights*/
+
+.nav {
+    padding-top: 15px;
+    background-color: #DDE1E4;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+.nav-tabs .nav-link.active {
+    color: #3d3b62;
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*----------------------------------------------------------------------------------------------------------Media Queries (small screen)*/
 
 @media screen and (max-width: 576px) {
