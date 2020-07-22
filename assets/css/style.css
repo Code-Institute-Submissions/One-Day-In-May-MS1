@@ -211,8 +211,12 @@ a:hover {
     text-align: center;
 }
 
-.text-block--grey h1,h2,h3,h4, h5, h6 {
+.text-block--grey h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
+}
+
+.text-block--grey h1 {
+    font-size: 32px;
 }
 
 .text-block--grey p {
@@ -231,7 +235,7 @@ a:hover {
     text-align: center;
 }
 
-.text-block--blue h1,h2,h3,h4, h5, h6 {
+.text-block--blue h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
 }
 
@@ -251,7 +255,7 @@ a:hover {
     text-align: center;
 }
 
-.text-block--blue h1,h2,h3,h4, h5, h6 {
+.text-block--blue h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
 }
 
@@ -305,6 +309,7 @@ a:hover {
 
 .shortcuts__header {
     color: #3d3b62;
+    font-size: 20px;
     transition: transform .5s;
     margin-bottom: 15px;
 }
@@ -363,22 +368,37 @@ a:hover {
     text-decoration: underline;
 }
 
+.match-date {
+    font-size: 20px;
+}
+
 .result {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .home-team {
+    margin-bottom: 5px;
     text-align: right;
-}
-
-.score {
-    min-width: 60px;
+    font-size: 30px;
 }
 
 .away-team {
+    margin-bottom: 5px;
     text-align: left;
+    font-size: 30px;
+}
+
+.score {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.scorers {
+    font-size: 16px;
 }
 
 .video-container {
@@ -434,7 +454,20 @@ a:hover {
     .league-table {
         margin-left: 0px;
         width: 100%;
+        min-width: 250px;
         float: none;   
+    }
+
+    /* Change the text alignment of the match result.  I have used the Bootstrap grid system to change the layout of the elements on small screen sizes down. */
+
+    .result {
+        padding: 0 15px;
+    }
+    .home-team {
+        text-align: left;
+    }
+    .score {
+        text-align: right;
     }
     
 }

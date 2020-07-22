@@ -56,7 +56,7 @@
                 <!-- 1st row contains header and link to highlights further down the page -->
                 <div class="row">
                     <div class="col">
-                        <h2 class="uppercase font-bold">Background</h2>
+                        <h1 class="uppercase font-bold">Background</h1>
                         <a href="#highlights" class="underline a__hover--bold a__hover--underline">Jump straight to highlights</a>
                     </div>
                 </div>
@@ -123,57 +123,63 @@
                 <!-- 1st row is 1 column for date and venue -->
                 <div class="row">
                     <div class="col">
-                        <h5 class="uppercase font-bold">14 May 2000 - Reebok Stadium</h5>
+                        <h3 class="uppercase font-bold match-date">14 May 2000 - Reebok Stadium</h3>
                     </div>
                 </div>
-                <!-- 2nd row contains teams and score -->
+                <!-- 2nd row contains teams, score and goalscorers -->
                 <div class="row result">
-                    <div class="col-5 home-team">
-                        <h3 class="uppercase">Bolton Wanderers</h3>
+                    <div class="col-9 col-md-5 order-md-1 home-team">
+                        <span class="uppercase">Bolton Wanderers<span>
                     </div>
-                    <div class="col-2">
-                        <h2 class="score">2 - 2</h2>
+                    <div class="col-3 col-md-1  order-md-2 home-team score">
+                        2
                     </div>
-                    <div class="col-5 away-team">
-                        <h3 class="uppercase">Ipswich Town</h3>
-                    </div>
-                </div>
-                <div class="row scorers">
-                    <div class="col-5 home-team">
+                    <div class="col-12 col-md-5 order-md-5 home-team scorers">
                         <div>
                             Holdsworth 5' 
-                            <span class="d-none d-md-inline">
+                            <span>
                                 <i class="fas fa-futbol"></i>
                             </span>
                         </div>
                         <div>
                             Gudjohnsen 26' 
-                            <span class="d-none d-md-inline">
+                            <span>
                                 <i class="fas fa-futbol"></i>
                             </span>
                         </div>
                     </div>
-                    <div class="col-5 offset-2 away-team">
-                        <div>
-                            <span class="d-none d-md-inline">
-                                <i class="fas fa-futbol"></i>
-                                <i class="fas fa-futbol"></i>
-                            </span>
+                    <div class="col-9 col-md-5 order-md-4 away-team">
+                        <span class="uppercase">Ipswich Town</span>
+                    </div>
+                    <div class="col-3 col-md-1 order-md-3 away-team score">
+                        2
+                    </div>
+                    <div class="col-12 col-md-5 offset-md-2 order-md-6 away-team scorers">
+                        <span class="d-none d-md-inline">
+                            <i class="fas fa-futbol"></i>
+                            <i class="fas fa-futbol"></i>
+                        </span>
+                        <span  class="order-1">
                             Stewart 36' 65'
-                        </div>
+                        </span>
+                        <span class="d-inline d-md-none">
+                            <i class="fas fa-futbol"></i>
+                            <i class="fas fa-futbol"></i>
+                        </span>
                     </div>
                 </div>
-                <!-- 3rd row contains the YouTube higlights and match summary -->
+                <!-- 4th row contains the YouTube higlights and match summary -->
                 <div class="row">
                     <div class="col">
                         <div class="video-container">
                             <!-- The below embed code snippet was copied from YouTube:  https://www.youtube.com/watch?v=uzy3y_B1LJ0 -->
-                            <!-- I changed the width property to 100% to span the whole column -->
+                            <!-- I changed the height & width property below to 100% and use the video-container set the size using CSS -->
+                            <!-- Autoplay is off by default -->
                             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uzy3y_B1LJ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <!-- End of copied snippet -->
                         </div>
                         <div>
-                            <h6 class="uppercase font-bold">Match Summary</h6>
+                            <h4 class="uppercase font-bold">Match Summary</h4>
                             <div class="match-summary">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                 <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
