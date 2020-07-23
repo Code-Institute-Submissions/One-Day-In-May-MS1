@@ -56,6 +56,7 @@ a:hover {
 
 .navbar {
     background-color: #3d3b62;
+    color: #ffffff;
 }
 
 .logo-image {
@@ -75,7 +76,6 @@ a:hover {
 
 .nav-link {
     font-family: 'Didact Gothic', sans-serif; 
-    color: #ffffff;
     font-size: 18px;
 }
 
@@ -90,6 +90,7 @@ a:hover {
 
 .active-page {
     text-decoration: underline;
+    font-weight: bold;
 }
 
 /*----------------------------------------------------------------------------------------------------------Footer*/
@@ -255,22 +256,17 @@ a:hover {
     text-align: center;
 }
 
-.text-block--blue h1,h2,h3,h4,h5,h6 {
+.text-block--white h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
 }
 
-.text-block--blue p {
+.text-block--white p {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 /*----------------------------------------------------------------------------------------------------------Home page - Shortcuts*/
-
-.shortcuts {
-    padding: 30px 5% 20px 5%;
-    text-align: center;
-}
 
 .shortcuts__cols {
     padding: 0px 30px;
@@ -289,8 +285,6 @@ a:hover {
 .shortcuts__aspect-ratio {
     margin-top: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .shortcuts__icon {
@@ -311,12 +305,6 @@ a:hover {
     color: #3d3b62;
     font-size: 20px;
     transition: transform .5s;
-    margin-bottom: 15px;
-}
-
-.shortcuts p {
-    color: #3d3b62;
-    font-size: 18px;
 }
 
 /*------------------------------------------------Home Page - Shortcuts Pseudo Classes*/
