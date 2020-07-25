@@ -493,6 +493,10 @@ a:hover {
 
 /* End of copied code snippet */
 
+.modal-close-button {
+    color: #ff0000;
+}
+
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs screen)*/
 
 @media screen and (max-width: 576px) {

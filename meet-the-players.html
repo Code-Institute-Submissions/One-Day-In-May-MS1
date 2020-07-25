@@ -61,7 +61,7 @@
                     <div class="row shortcuts">
                         <!-- Player 1 - Matt Holland -->
                         <div class="col-sm-6 col-lg-4 shortcuts-col">
-                            <a href="#">
+                            <a data-toggle="modal" href="#matt-holland-modal">
                                 <div class="player-image-container mb-5">
                                     <!-- The below code snippet was copied from: https://www.w3schools.com/howto/howto_css_flip_card.asp -->
                                     <!-- It has been customised for the purposes of this site -->
@@ -184,6 +184,47 @@
             </div>        
         </section>
     </article>
+
+    <!-- Modals -->
+    <!-- The below code snippet is copied from: https://getbootstrap.com/docs/4.0/components/modal/#vertically-centered -->
+    <div class="modal fade" id="matt-holland-modal" tabindex="-1" role="dialog" aria-labelledby="matt-holland-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold">Matt Holland (Captain)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!-- I changed the close icon in the below code -->
+                    <span aria-hidden="true"><i class="fas fa-window-close modal-close-button"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 mx-auto">
+                                <img class="rounded mx-auto d-block img-fluid mb-4" src="/assets/images/matt-holland/matt-holland.jpg" alt="Matt Holland playing for Ipswich Town FC.">
+                            </div>
+                            <div class="col-lg-8 mb-4">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Shirt Number:</strong> 8</li>
+                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Date of Birth:</strong> 11/04/1974</li>
+                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Position:</strong> Centre Midfield</li>
+                                    <li class="list-group-item list-group-item-action list-group-item-light">
+                                        <strong>Facts & Key Contributions:</strong>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of copied code snippet -->
 
     <footer>
         <div class="container-fluid">
