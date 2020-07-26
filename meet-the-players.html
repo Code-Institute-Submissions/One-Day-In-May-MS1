@@ -10,6 +10,8 @@
     <!--Hover.css link-->
     <!--The whole hover.css file has been downloaded from https://ianlunn.co.uk/articles/hover-css-tutorial-introduction-->
     <link href="assets/css/hover.css" rel="stylesheet" media="all">
+    <!-- The whole lightbox.css file has been downloaded from: https://www.lokeshdhakar.com/projects/lightbox2/ -->
+    <link href="assets/css/lightbox.css" rel="stylesheet" />
     <!--style.css link-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>One Day In May</title>
@@ -197,29 +199,70 @@
                     <span aria-hidden="true"><i class="fas fa-window-close modal-close-button"></i></span>
                     </button>
                 </div>
+                <!-- The content of the modal-body has not been copied -->
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 mx-auto">
-                                <img class="rounded mx-auto d-block img-fluid mb-4" src="/assets/images/matt-holland/matt-holland.jpg" alt="Matt Holland playing for Ipswich Town FC.">
+                                <a href="/assets/images/matt-holland/matt-holland.jpg" data-lightbox="Matt Holland" data-title="Matt Holland in action for Ipswich Town">
+                                    <img class="rounded mx-auto d-block img-fluid mb-4" src="/assets/images/matt-holland/matt-holland.jpg" alt="Matt Holland in action for Ipswich Town.">
+                                </a>
                             </div>
                             <div class="col-lg-8 mb-4">
-                                <ul class="list-group">
-                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Shirt Number:</strong> 8</li>
-                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Date of Birth:</strong> 11/04/1974</li>
-                                    <li class="list-group-item list-group-item-action list-group-item-dark"><strong>Position:</strong> Centre Midfield</li>
-                                    <li class="list-group-item list-group-item-action list-group-item-light">
-                                        <strong>Facts & Key Contributions:</strong>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </li>
-                                </ul>
+                                <div class="container-fluid">
+                                    <ul class="list-group">
+                                        <div class="row">
+                                            <li class="col-lg-5 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="fas fa-hashtag"></i> Shirt Number:</strong> 8
+                                            </li>
+                                            <li class="col-lg-7 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="far fa-calendar"></i> DOB:</strong> 11/04/1974
+                                            </li>
+                                            <li class="col-lg-5 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="fas fa-running"></i> Position:</strong> CM
+                                            </li>
+                                            <li class="col-lg-7 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="fas fa-file-signature"></i> Signed:</strong> AFC Bournemouth
+                                            </li>
+                                            <li class="col-lg-5 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="fas fa-tshirt"></i> Appearances:</strong> 259
+                                            </li>
+                                            <li class="col-lg-7 p-3 list-group-item list-group-item-action list-group-item-dark">
+                                                <strong><i class="fas fa-futbol"></i> Goals:</strong> 38
+                                            </li>
+                                            <li class="col-12 p-3 list-group-item list-group-item-action list-group-item-light">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider pb-2"></div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <a href="/assets/images/matt-holland/matt-holland-hugs-jim-magilton-when-reuser-scores.jpg" data-lightbox="Matt Holland" data-title="Matt Holland hugs Jim Magilton when Martijn Reuser scores Ipswich's 4th goal against Barnsley at Wembley.">
+                                    <img class="m-1 rounded img-thumbnail modal-thumbnail" src="/assets/images/matt-holland/matt-holland-hugs-jim-magilton-when-reuser-scores.jpg" alt="Matt Holland hugs Jim Magilton when Martijn Reuser scores Ipswich's 4th goal against Barnsley at Wembley.">
+                                </a>
+                                <a href="/assets/images/matt-holland/matt-holland-trophy-lift.jpg" data-lightbox="Matt Holland" data-title="Captain Matt Holland lifts the play-off trophy at Wembley.">
+                                    <img class="m-1 rounded img-thumbnail modal-thumbnail" src="/assets/images/matt-holland/matt-holland-trophy-lift.jpg" alt="Captain Matt Holland lifts the play-off trophy at Wembley.">
+                                </a>
+                                <a href="/assets/images/matt-holland/matt-holland-trophy-lift-2.jpg" data-lightbox="Matt Holland" data-title="Captain Matt Holland lifts the play-off trophy towards the Ipswich fans at Wembley.">
+                                    <img class="m-1 rounded img-thumbnail modal-thumbnail" src="/assets/images/matt-holland/matt-holland-trophy-lift-2.jpg" alt="Captain Matt Holland lifts the play-off trophy towards the Ipswich fans at Wembley.">
+                                </a>
+                                <a href="/assets/images/matt-holland/matt-holland-arms-aloft.jpg" data-lightbox="Matt Holland" data-title="Matt Holland celebrates Ipswich Town's promotion.">
+                                    <img class="m-1 rounded img-thumbnail modal-thumbnail" src="/assets/images/matt-holland/matt-holland-arms-aloft.jpg" alt="Matt Holland celebrates Ipswich Town's promotion.">
+                                </a>
+                                <a href="/assets/images/matt-holland/matt-holland-with-flag.jpg" data-lightbox="Matt Holland" data-title="Matt Holland celebrates Ipswich Town's promotion.">
+                                    <img class="m-1 rounded img-thumbnail modal-thumbnail" src="/assets/images/matt-holland/matt-holland-with-flag.jpg" alt="Matt Holland celebrates Ipswich Town's promotion.">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- The modal footer has been amended from the original copied snippet to leave just a close button styled red -->
                 <div class="modal-footer">
-                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -261,5 +304,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- The whole lightbox-plus-jquery.js file has been downloaded from: https://www.lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="assets/javascript/lightbox-plus-jquery.js"></script>
 </body>
 </html>

@@ -493,8 +493,14 @@ a:hover {
 
 /* End of copied code snippet */
 
+/*------------------------------------------------Meet the Players Page - Modal Rules*/
+
 .modal-close-button {
-    color: #ff0000;
+    color: #dc3545;
+}
+
+.modal-thumbnail {
+    max-width: 150px;
 }
 
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs screen)*/
@@ -572,4 +578,11 @@ a:hover {
     .match-summary {
         text-align: center;
     }
+
+    /* In the Meet the PLayer modal, on medium screen sizes down I want to align all texy in the body to center. */
+
+    .modal-body li {
+        text-align: center;
+    }
+
 }
