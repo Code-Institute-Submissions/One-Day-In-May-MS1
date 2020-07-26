@@ -503,6 +503,11 @@ a:hover {
     max-width: 150px;
 }
 
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs screen)*/
 
 @media screen and (max-width: 576px) {
