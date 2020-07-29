@@ -144,7 +144,7 @@ a:hover {
 /*----------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
 
 .hero-image {
-    background-image: url("assets/images/itfc-promotion-1.jpg");
+    background-image: url("https://raw.githubusercontent.com/LukeGarnham/One-Day-In-May-MS1/master/assets/images/itfc-promotion-1.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -410,7 +410,7 @@ a:hover {
 /*----------------------------------------------------------------------------------------------------------Meet the Players page - Meet the Players*/
 
 .pitch-background {
-    background-image: url("assets/images/football-pitch.jpg");
+    background-image: url("https://raw.githubusercontent.com/LukeGarnham/One-Day-In-May-MS1/master/assets/images/football-pitch.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
