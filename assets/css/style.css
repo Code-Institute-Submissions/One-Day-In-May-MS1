@@ -509,6 +509,17 @@ a:hover {
     white-space: nowrap;
 }
 
+
+.share {
+    background-color: #DDE1E4;
+}
+
+.share-form {
+    background-color: #ffffff;
+    border: solid 3px #3d3b62;
+    border-radius: 10px;
+}
+
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs screen)*/
 
 @media screen and (max-width: 576px) {
