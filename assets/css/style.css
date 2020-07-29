@@ -501,6 +501,7 @@ a:hover {
 
 .modal-thumbnail {
     max-width: 150px;
+    max-height: 150px;
 }
 
 .scrollmenu {
