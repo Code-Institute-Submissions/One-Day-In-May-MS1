@@ -32,33 +32,33 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm navigation__bar">
             <a href="index.html">
-                <img class="logo-image d-none d-md-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
-                <span class="navbar-brand uppercase a__hover--grey align-middle">One Day In May</span>
+                <img class="navigation__image d-none d-md-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
+                <span class="navbar-brand navigation__title text-uppercase a__hover--grey align-middle">One Day In May</span>
             </a>
 
             <!--The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <!--I changed the below line to insert a more customisable menu icon from FontAwesome.-->
-                <i class="fas fa-bars navbar-toggler__icon" aria-hidden="true"></i>
+                <i class="fas fa-bars navigation__toggler" aria-hidden="true"></i>
             </button>
             <!--End of copied code snippet.-->
 
             <!--Navigation links (Unordered list)-->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link a__hover--underline a__hover--bold border-right--white">Home</a>
+                <ul class="navbar-nav ml-auto align-items-start align-items-sm-center">
+                    <li class="nav-item navigation__link border-right--white">
+                        <a href="index.html" class="nav-link a__hover--underline">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="highlights.html" class="nav-link a__hover--underline a__hover--bold active-page border-right--white">Highlights</a>
+                    <li class="nav-item navigation__link border-right--white">
+                        <a href="highlights.html" class="nav-link a__hover--underline navigation__active">Highlights</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="meet-the-players.html" class="nav-link a__hover--underline a__hover--bold border-right--white">Meet the Players</a>
+                    <li class="nav-item navigation__link">
+                        <a href="meet-the-players.html" class="nav-link a__hover--underline">Meet the Players</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="share.html" class="nav-link a__hover--underline a__hover--bold">Share</a>
+                    <li class="nav-item navigation__link border-left--white">
+                        <a href="share.html" class="nav-link a__hover--underline">Share</a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +72,7 @@
                 <!-- 1st row contains header and link to highlights further down the page -->
                 <div class="row">
                     <div class="col">
-                        <h1 class="uppercase font-bold">Background</h1>
+                        <h1 class="text-uppercase font-weight-bold">Background</h1>
                         <a href="#highlights" class="underline a__hover--bold a__hover--underline">Jump straight to highlights</a>
                     </div>
                 </div>
@@ -81,17 +81,77 @@
                     <div class="col background-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                         <!-- Float the league table to the right of paragraphs on medium screens and above -->
-                        <div class="league-table">
-                        <!-- placeholder text -->
-                            League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.
-                            <br>League Table here.                        
+                        <div class="league-table table-responsive table-sm">
+                            <table class="table table-striped table-bordered mb-0">
+                                <caption class="pb-0">Final Division 1 league table 1999-2000 season</caption>
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Team</th>
+                                        <th scope="col">W</th>
+                                        <th scope="col">D</th>
+                                        <th scope="col">L</th>
+                                        <th scope="col">GD</th>
+                                        <th scope="col">Pts</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-success">
+                                        <th scope="row">1</th>
+                                        <td>Charlton Athletic</td>
+                                        <td>27</td>
+                                        <td>10</td>
+                                        <td>9</td>
+                                        <td>+34</td>
+                                        <td>91</td>
+                                    </tr>
+                                    <tr class="table-success promotion-cut-off">
+                                        <th scope="row">2</th>
+                                        <td>Manchester City</td>
+                                        <td>26</td>
+                                        <td>11</td>
+                                        <td>9</td>
+                                        <td>+38</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr class="table-primary">
+                                        <th scope="row">3</th>
+                                        <td>Ipswich Town</td>
+                                        <td>25</td>
+                                        <td>12</td>
+                                        <td>9</td>
+                                        <td>+29</td>
+                                        <td>87</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Barnsley</td>
+                                        <td>24</td>
+                                        <td>10</td>
+                                        <td>12</td>
+                                        <td>+21</td>
+                                        <td>82</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Birmingham City</td>
+                                        <td>22</td>
+                                        <td>11</td>
+                                        <td>13</td>
+                                        <td>+21</td>
+                                        <td>77</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Bolton Wanderers</td>
+                                        <td>21</td>
+                                        <td>13</td>
+                                        <td>12</td>
+                                        <td>+19</td>
+                                        <td>76</td>
+                                    </tr>
+                                </tbody>
+                            </table>                        
                         </div>
                         <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
                         <p>Sed ac laoreet lacus. Maecenas volutpat, metus eget blandit interdum, quam odio convallis arcu, quis consectetur ligula justo ac sem. Donec eget lectus consequat, consectetur dolor eu, tristique erat. Praesent porta sagittis lacus ut mattis. Etiam ac nibh vel lacus fringilla egestas. Pellentesque erat arcu, pellentesque et vehicula at, pulvinar ac quam. Proin mi erat, dictum et sem sed, facilisis elementum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -103,7 +163,7 @@
         <!-- 2nd section contains the highlights -->
         <section id="highlights">
         <div class="text-block--blue">
-            <h2 class="uppercase font-bold">Highlights</h2>
+            <h2 class="text-uppercase font-weight-bold">Highlights</h2>
         </div>
         <!-- The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior -->
         <!-- The ordered list below has been amended from the original copied code -->
@@ -141,7 +201,7 @@
                     <!-- 1st row is 1 column for date and venue -->
                     <div class="row">
                         <div class="col">
-                            <h3 class="uppercase font-bold match-date">14 May 2000 - Reebok Stadium</h3>
+                            <h3 class="text-uppercase font-weight-bold match-date">14 May 2000 - Reebok Stadium</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
@@ -154,7 +214,7 @@
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
                     <div class="row result">
                         <div class="col-9 col-md-5 order-md-1 home-team">
-                            <span class="uppercase">Bolton Wanderers</span>
+                            <span class="text-uppercase">Bolton Wanderers</span>
                         </div>
                         <div class="col-3 col-md-1  order-md-2 home-team score">
                             2
@@ -174,7 +234,7 @@
                             </div>
                         </div>
                         <div class="col-9 col-md-5 order-md-4 away-team">
-                            <span class="uppercase">Ipswich Town</span>
+                            <span class="text-uppercase">Ipswich Town</span>
                         </div>
                         <div class="col-3 col-md-1 order-md-3 away-team score">
                             2
@@ -206,7 +266,7 @@
                                 <!-- End of copied snippet -->
                             </div>
                             <div>
-                                <h4 class="uppercase font-bold">Match Summary</h4>
+                                <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
                                 <div class="match-summary">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
@@ -223,7 +283,7 @@
                     <!-- 1st row is 1 column for date and venue -->
                     <div class="row">
                         <div class="col">
-                            <h3 class="uppercase font-bold match-date">17 May 2000 - Portman Road</h3>
+                            <h3 class="text-uppercase font-weight-bold match-date">17 May 2000 - Portman Road</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
@@ -236,7 +296,7 @@
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
                     <div class="row result">
                         <div class="col-9 col-md-5 order-md-1 home-team">
-                            <span class="uppercase">Ipswich Town</span>
+                            <span class="text-uppercase">Ipswich Town</span>
                         </div>
                         <div class="col-3 col-md-1  order-md-2 home-team score">
                             5
@@ -264,7 +324,7 @@
                             </div>
                         </div>
                         <div class="col-9 col-md-5 order-md-4 away-team">
-                            <span class="uppercase">Bolton Wanderers</span>
+                            <span class="text-uppercase">Bolton Wanderers</span>
                         </div>
                         <div class="col-3 col-md-1 order-md-3 away-team score">
                             3
@@ -313,7 +373,7 @@
                                 <!-- End of copied snippet -->
                             </div>
                             <div>
-                                <h4 class="uppercase font-bold">Match Summary</h4>
+                                <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
                                 <div class="match-summary">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
@@ -330,7 +390,7 @@
                     <!-- 1st row is 1 column for date and venue -->
                     <div class="row">
                         <div class="col">
-                            <h3 class="uppercase font-bold match-date">29 May 2000 - Wembley Stadium</h3>
+                            <h3 class="text-uppercase font-weight-bold match-date">29 May 2000 - Wembley Stadium</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
@@ -343,7 +403,7 @@
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
                     <div class="row result">
                         <div class="col-9 col-md-5 order-md-1 home-team">
-                            <span class="uppercase">Barnsley</span>
+                            <span class="text-uppercase">Barnsley</span>
                         </div>
                         <div class="col-3 col-md-1  order-md-2 home-team score">
                             2
@@ -363,7 +423,7 @@
                             </div>
                         </div>
                         <div class="col-9 col-md-5 order-md-4 away-team">
-                            <span class="uppercase">Ipswich Town</span>
+                            <span class="text-uppercase">Ipswich Town</span>
                         </div>
                         <div class="col-3 col-md-1 order-md-3 away-team score">
                             4
@@ -426,7 +486,7 @@
                                 <!-- End of copied snippet -->
                             </div>
                             <div>
-                                <h4 class="uppercase font-bold">Match Summary</h4>
+                                <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
                                 <div class="match-summary">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>

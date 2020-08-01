@@ -32,33 +32,33 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm navigation__bar">
             <a href="index.html">
-                <img class="logo-image d-none d-md-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
-                <span class="navbar-brand uppercase a__hover--grey align-middle">One Day In May</span>
+                <img class="navigation__image d-none d-md-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
+                <span class="navbar-brand navigation__title text-uppercase a__hover--grey align-middle">One Day In May</span>
             </a>
 
             <!--The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <!--I changed the below line to insert a more customisable menu icon from FontAwesome.-->
-                <i class="fas fa-bars navbar-toggler__icon" aria-hidden="true"></i>
+                <i class="fas fa-bars navigation__toggler" aria-hidden="true"></i>
             </button>
             <!--End of copied code snippet.-->
 
             <!--Navigation links (Unordered list)-->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link a__hover--underline a__hover--bold border-right--white ">Home</a>
+                <ul class="navbar-nav ml-auto align-items-start align-items-sm-center">
+                    <li class="nav-item navigation__link border-right--white">
+                        <a href="index.html" class="nav-link a__hover--underline">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="highlights.html" class="nav-link a__hover--underline a__hover--bold border-right--white">Highlights</a>
+                    <li class="nav-item navigation__link border-right--white">
+                        <a href="highlights.html" class="nav-link a__hover--underline">Highlights</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="meet-the-players.html" class="nav-link a__hover--underline a__hover--bold active-page border-right--white">Meet the Players</a>
+                    <li class="nav-item navigation__link">
+                        <a href="meet-the-players.html" class="nav-link a__hover--underline navigation__active">Meet the Players</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="share.html" class="nav-link a__hover--underline a__hover--bold">Share</a>
+                    <li class="nav-item navigation__link border-left--white">
+                        <a href="share.html" class="nav-link a__hover--underline">Share</a>
                     </li>
                 </ul>
             </div>
