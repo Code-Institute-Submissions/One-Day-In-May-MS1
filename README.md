@@ -38,6 +38,7 @@ I used the following languages, frameworks and libraries to build this website:
 - [Lightbox](https://www.lokeshdhakar.com/projects/lightbox2/) - 
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
+- [FavIcon](https://www.favicon-generator.org/)
 - **TBC**
 
 ## Testing
