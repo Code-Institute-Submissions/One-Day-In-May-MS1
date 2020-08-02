@@ -31,13 +31,13 @@ a {
     color: #DDE1E4;
 }
 
-/* .a__hover--bold:hover {
-    color: inherit;
-    font-weight: bold;
-} */
-
 .a__hover--underline:hover {
     text-decoration: underline;
+    color: inherit;
+}
+
+.a__hover--bold:hover {
+    font-weight: bold;
     color: inherit;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 
 /*----------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
 
-.hero-image {
+.jumbotron__hero-image {
     background-image: url("https://raw.githubusercontent.com/LukeGarnham/One-Day-In-May-MS1/master/assets/images/itfc-promotion-1.jpg");
     background-size: cover;
     -webkit-background-size: cover;
@@ -137,7 +137,7 @@ a:hover {
     }
 }
 
-.jumbotron {
+.jumbotron__overlay {
     color: #DDE1E4;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -152,7 +152,7 @@ a:hover {
     width: 100%;
 }
 
-.lead {
+.jumbotron__lead-text {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -167,22 +167,10 @@ a:hover {
 
 .text-block--grey {
     background-color: #DDE1E4;
-    padding: 30px 5% 20px 5%;
-    text-align: center;
-}
-
-.text-block--grey h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 15px;
 }
 
 .text-block--grey h1 {
     font-size: 32px;
-}
-
-.text-block--grey p {
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 /*----------------------------------------------------------------------------------------------------------text-block--blue*/
@@ -191,18 +179,6 @@ a:hover {
 .text-block--blue {
     background-color: #3d3b62;
     color: #ffffff;
-    padding: 30px 5% 20px 5%;
-    text-align: center;
-}
-
-.text-block--blue h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 15px;
-}
-
-.text-block--blue p {
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 /*----------------------------------------------------------------------------------------------------------text-block--white*/
@@ -211,25 +187,21 @@ a:hover {
 .text-block--white {
     background-color: #ffffff;
     color: #3d3b62;
-    padding: 30px 5% 20px 5%;
-    text-align: center;
+    /* padding: 30px 5% 20px 5%;
+    text-align: center; */
 }
 
-.text-block--white h1,h2,h3,h4,h5,h6 {
+/* .text-block--white h1,h2,h3,h4,h5,h6 {
     margin-bottom: 15px;
-}
+} */
 
-.text-block--white p {
+/* .text-block--white p {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
+} */
 
 /*----------------------------------------------------------------------------------------------------------Home page - Shortcuts*/
-
-.shortcuts__cols {
-    padding: 0px 30px;
-}
 
 .shortcuts__icon-container {
     border: 5px solid #3d3b62;
@@ -263,6 +235,7 @@ a:hover {
 .shortcuts__header {
     color: #3d3b62;
     font-size: 20px;
+    text-decoration: underline;
     transition: transform .5s;
 }
 
@@ -285,21 +258,12 @@ a:hover {
 
 /*----------------------------------------------------------------------------------------------------------Highlights page - Background*/
 
-.background-text {
-    text-align: left;
-}
-
 .league-table {
-    text-align: center;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
     width: 33%;
     min-width: 425px;
     border: 3px solid #3d3b62;
     border-radius: 10px;
     background-color: #ffffff;
-    float: right;
 }
 
 .promotion-cut-off {
@@ -487,23 +451,10 @@ a:hover {
 
 @media screen and (max-width: 576px) {
 
-    /* Ensure the right border doesn't show  on mobile nav links*/
+    /* Ensure the borders don't show  on mobile nav links*/
 
     .navigation__link {
         border: none;
-        text-align: left;
-    }
-
-    /* Ensure social media items in footer center column appear as block items (text above, icons below - not side to side)*/
-
-    .footer__column--center {
-        display: block;
-    }
-
-    /* Underline the shortcut headers on mobile to make them look more like links */
-
-    .shortcuts__header {
-        text-decoration: underline;
     }
 
 }
@@ -519,17 +470,12 @@ a:hover {
         padding: 25%;
     }
 
-    /* On the highlights page, we no longer want to float the league table to the right of the text on small screen sizes down.  We also want to alighn the background text to the center. */
+    /* On the highlights page, we want to the league table to take up 100% of the width and reduce the min width on mobile screens. */
     
     .league-table {
-        margin-left: 0px;
         width: 100%;
         min-width: 250px;
-        float: none;
     }
-    .background-text {
-    text-align: center;
-}
 
     /* Change the text alignment of the match result.  I have used the Bootstrap grid system to change the layout of the elements on small screen sizes down. */
 
