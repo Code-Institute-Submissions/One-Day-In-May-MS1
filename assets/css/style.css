@@ -93,48 +93,11 @@ a:hover {
 
 .footer__row {
     color: #ffffff;
-    font-family: 'Didact Gothic', sans-serif;
     background-color: #9e3242;
-    padding: 5px 20px;
-    align-items: center;
-}
-
-.footer__column--left {
-    text-align: left;
-}
-
-.icon__copyright {
-    color: #ffffff;
-    font-size: 15px;
-}
-
-.footer__column--center {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer__column--right {
-    text-align: right;
-}
-
-.author {
-    color: #ffffff;
-    font-size: 15px;
 }
 
 .footer__icon {
     font-size: 30px;
-    color: #ffffff;
-    margin: 5px 8px;
-    transition: transform .5s;
-}
-
-/*------------------------------------------------Footer Pseudo Classes*/
-
-.footer__icon:hover {
-    transform: scale(1.1);
 }
 
 /*----------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
