@@ -272,17 +272,17 @@ a:hover {
 
 /*----------------------------------------------------------------------------------------------------------Highlights page - Highlights*/
 
-.nav {
+.navigation__tabs {
     background-color: #3d3b62;
 }
 
-.nav-tabs .nav-link {
+.navigation__tabs .nav-link {
     border: none;
     color: #ffffff;
     font-size: 18px;
 }
 
-.nav-tabs .nav-link.active {
+.navigation__tabs .nav-link .active {
     color: #3d3b62;
     font-weight: bold;
     text-decoration: underline;
@@ -292,29 +292,12 @@ a:hover {
     font-size: 20px;
 }
 
-.result {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.home-team {
-    margin-bottom: 5px;
-    text-align: right;
-    font-size: 30px;
-}
-
-.away-team {
-    margin-bottom: 5px;
-    text-align: left;
+.team {
     font-size: 30px;
 }
 
 .score {
-    text-align: center;
     font-size: 45px;
-    font-weight: bold;
 }
 
 .scorers {
@@ -324,14 +307,6 @@ a:hover {
 .video-container {
     width: 67%;
     height: 55vh;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
-    float: left;
-}
-
-.match-summary {
-    text-align: left;
 }
 
 /*----------------------------------------------------------------------------------------------------------Meet the Players page - Meet the Players*/
@@ -451,7 +426,7 @@ a:hover {
 
 @media screen and (max-width: 576px) {
 
-    /* Ensure the borders don't show  on mobile nav links*/
+    /* Ensure the navigation links borders don't show  on mobile nav links*/
 
     .navigation__link {
         border: none;
@@ -477,36 +452,19 @@ a:hover {
         min-width: 250px;
     }
 
-    /* Change the text alignment of the match result.  I have used the Bootstrap grid system to change the layout of the elements on small screen sizes down. */
-
-    .result {
-        padding: 0 15px;
-    }
-    .home-team {
-        text-align: left;
-    }
-    .score {
-        text-align: right;
-    }
-    
 }
 
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs - md screen)*/
 
 @media screen and (max-width: 992px) {
     
-    /* On the highlights page, we no longer want to float the YouTube video to the left of the text on medium screen sizes down.  When we do this, we can align the match summary text to center.*/
+    /* On the highlights page, we want the YouTube video take up 100% of the width of its container.*/
     
     .video-container{
-        margin-right: 0px;
         width: 100%;
-        float: none;
-    }
-    .match-summary {
-        text-align: center;
     }
 
-    /* In the Meet the PLayer modal, on medium screen sizes down I want to align all texy in the body to center. */
+    /* In the Meet the PLayer modal, on medium screen sizes down I want to align all text in the body to center. */
 
     .modal-body li {
         text-align: center;

@@ -167,7 +167,7 @@
         </div>
         <!-- The below code snippet is copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior -->
         <!-- The ordered list below has been amended from the original copied code -->
-        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <ul class="nav nav-tabs navigation__tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
             <a class="nav-link active a__hover--underline" id="game-1-tab" data-toggle="tab" href="#game-1" role="tab" aria-controls="game-1" aria-selected="true">
                 Game 1
@@ -199,27 +199,27 @@
                 <!-- Game 1 highlights and summary -->
                 <div class="container-fluid px-5 py-4 text-center text-block--white">
                     <!-- 1st row is 1 column for date and venue -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
                             <h3 class="text-uppercase font-weight-bold match-date">14 May 2000 - Reebok Stadium</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
-                            <span class="attendance">Attendance: 18,814</span>
+                            <span>Attendance: 18,814</span>
                         </div>
                     </div>
                     <!-- 3rd row contains teams, score and goalscorers -->
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
-                    <div class="row result">
-                        <div class="col-9 col-md-5 order-md-1 home-team">
+                    <div class="row align-items-center result mb-2">
+                        <div class="col-9 col-md-5 order-md-1 text-left text-md-right mb-2 team">
                             <span class="text-uppercase">Bolton Wanderers</span>
                         </div>
-                        <div class="col-3 col-md-1  order-md-2 home-team score">
+                        <div class="col-3 col-md-1  order-md-2 text-right text-md-center mb-2 font-weight-bold score">
                             2
                         </div>
-                        <div class="col-12 col-md-5 order-md-5 home-team scorers">
+                        <div class="col-12 col-md-5 order-md-5 text-left text-md-right mb-2 scorers">
                             <div>
                                 Holdsworth 5' 
                                 <span>
@@ -233,13 +233,13 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-9 col-md-5 order-md-4 away-team">
+                        <div class="col-9 col-md-5 order-md-4 text-left mb-2 team">
                             <span class="text-uppercase">Ipswich Town</span>
                         </div>
-                        <div class="col-3 col-md-1 order-md-3 away-team score">
+                        <div class="col-3 col-md-1 order-md-3 text-right text-md-center mb-2 font-weight-bold score">
                             2
                         </div>
-                        <div class="col-12 col-md-5 offset-md-2 order-md-6 away-team scorers">
+                        <div class="col-12 col-md-5 offset-md-2 order-md-6 text-left mb-2 scorers">
                             <div class="div">
                                 <span class="d-none d-md-inline">
                                     <i class="fas fa-futbol"></i>
@@ -258,7 +258,7 @@
                     <!-- 4th row contains the YouTube higlights and match summary -->
                     <div class="row">
                         <div class="col">
-                            <div class="video-container">
+                            <div class="video-container float-none float-lg-left mb-4 mr-0 mr-lg-4">
                                 <!-- The below embed code snippet was copied from YouTube:  https://www.youtube.com/watch?v=uzy3y_B1LJ0 -->
                                 <!-- I changed the height & width property below to 100% and use the video-container set the size using CSS -->
                                 <!-- Autoplay is off by default -->
@@ -267,7 +267,7 @@
                             </div>
                             <div>
                                 <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
-                                <div class="match-summary">
+                                <div class="text-center text-lg-left">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
                                     <p>Sed ac laoreet lacus. Maecenas volutpat, metus eget blandit interdum, quam odio convallis arcu, quis consectetur ligula justo ac sem. Donec eget lectus consequat, consectetur dolor eu, tristique erat. Praesent porta sagittis lacus ut mattis. Etiam ac nibh vel lacus fringilla egestas. Pellentesque erat arcu, pellentesque et vehicula at, pulvinar ac quam. Proin mi erat, dictum et sem sed, facilisis elementum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -281,27 +281,27 @@
                 <!-- Game 2 highlights and summary -->
                 <div class="container-fluid px-5 py-4 text-center text-block--white">
                     <!-- 1st row is 1 column for date and venue -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
                             <h3 class="text-uppercase font-weight-bold match-date">17 May 2000 - Portman Road</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
-                            <span class="attendance">Attendance: 21,543</span>
+                            <span class="mb-3">Attendance: 21,543</span>
                         </div>
                     </div>
                     <!-- 3rd row contains teams, score and goalscorers -->
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
-                    <div class="row result">
-                        <div class="col-9 col-md-5 order-md-1 home-team">
+                    <div class="row align-items-center result mb-2">
+                        <div class="col-9 col-md-5 order-md-1 text-left text-md-right mb-2 team">
                             <span class="text-uppercase">Ipswich Town</span>
                         </div>
-                        <div class="col-3 col-md-1  order-md-2 home-team score">
+                        <div class="col-3 col-md-1  order-md-2 text-right text-md-center mb-2 font-weight-bold score">
                             5
                         </div>
-                        <div class="col-12 col-md-5 order-md-5 home-team scorers">
+                        <div class="col-12 col-md-5 order-md-5 text-left text-md-right mb-2 scorers">
                             <div>
                                 Magilton 18' (pen),  49', 90'
                                 <span>
@@ -323,13 +323,13 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-9 col-md-5 order-md-4 away-team">
+                        <div class="col-9 col-md-5 order-md-4 text-left mb-2 team">
                             <span class="text-uppercase">Bolton Wanderers</span>
                         </div>
-                        <div class="col-3 col-md-1 order-md-3 away-team score">
+                        <div class="col-3 col-md-1 order-md-3 text-right text-md-center mb-2 font-weight-bold score">
                             3
                         </div>
-                        <div class="col-12 col-md-5 offset-md-2 order-md-6 away-team scorers">
+                        <div class="col-12 col-md-5 offset-md-2 order-md-6 text-left mb-2 scorers">
                             <div>
                                 <span class="d-none d-md-inline">
                                     <i class="fas fa-futbol"></i>
@@ -365,7 +365,7 @@
                     <!-- 5th row contains the YouTube higlights and match summary -->
                     <div class="row">
                         <div class="col">
-                            <div class="video-container">
+                            <div class="video-container float-none float-lg-left mb-4 mr-0 mr-lg-4">
                                 <!-- The below embed code snippet was copied from YouTube:  https://www.youtube.com/watch?v=vYSh2FyACbM&t=94s -->
                                 <!-- I changed the height & width property below to 100% and use the video-container set the size using CSS -->
                                 <!-- Autoplay is off by default -->
@@ -374,7 +374,7 @@
                             </div>
                             <div>
                                 <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
-                                <div class="match-summary">
+                                <div class="text-center text-lg-left">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
                                     <p>Sed ac laoreet lacus. Maecenas volutpat, metus eget blandit interdum, quam odio convallis arcu, quis consectetur ligula justo ac sem. Donec eget lectus consequat, consectetur dolor eu, tristique erat. Praesent porta sagittis lacus ut mattis. Etiam ac nibh vel lacus fringilla egestas. Pellentesque erat arcu, pellentesque et vehicula at, pulvinar ac quam. Proin mi erat, dictum et sem sed, facilisis elementum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -388,27 +388,27 @@
                 <!-- Game 3 highlights and summary -->
                 <div class="container-fluid px-5 py-4 text-center text-block--white">
                     <!-- 1st row is 1 column for date and venue -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
                             <h3 class="text-uppercase font-weight-bold match-date">29 May 2000 - Wembley Stadium</h3>
                         </div>
                     </div>
                     <!-- 2nd row is 1 column for match attendance -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col">
-                            <span class="attendance">Attendance: 73,427</span>
+                            <span class="mb-3">Attendance: 73,427</span>
                         </div>
                     </div>
                     <!-- 3rd row contains teams, score and goalscorers -->
                     <!-- Utilised Bootstrap grid system to re-order columns making the 2nd row responsive on small screens -->
-                    <div class="row result">
-                        <div class="col-9 col-md-5 order-md-1 home-team">
+                    <div class="row align-items-center result mb-2">
+                        <div class="col-9 col-md-5 order-md-1 text-left text-md-right mb-2 team">
                             <span class="text-uppercase">Barnsley</span>
                         </div>
-                        <div class="col-3 col-md-1  order-md-2 home-team score">
+                        <div class="col-3 col-md-1  order-md-2 text-right text-md-center mb-2 font-weight-bold score">
                             2
                         </div>
-                        <div class="col-12 col-md-5 order-md-5 home-team scorers">
+                        <div class="col-12 col-md-5 order-md-5 text-left text-md-right mb-2 scorers">
                             <div>
                                 Wright 6' (o.g.)
                                 <span>
@@ -422,13 +422,13 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="col-9 col-md-5 order-md-4 away-team">
+                        <div class="col-9 col-md-5 order-md-4 text-left mb-2 team">
                             <span class="text-uppercase">Ipswich Town</span>
                         </div>
-                        <div class="col-3 col-md-1 order-md-3 away-team score">
+                        <div class="col-3 col-md-1 order-md-3 text-right text-md-center mb-2 font-weight-bold score">
                             4
                         </div>
-                        <div class="col-12 col-md-5 offset-md-2 order-md-6 away-team scorers">
+                        <div class="col-12 col-md-5 offset-md-2 order-md-6 text-left mb-2 scorers">
                             <div>
                                 <span class="d-none d-md-inline">
                                     <i class="fas fa-futbol"></i>
@@ -478,7 +478,7 @@
                     <!-- 4th row contains the YouTube higlights and match summary -->
                     <div class="row">
                         <div class="col">
-                            <div class="video-container">
+                            <div class="video-container float-none float-lg-left mb-4 mr-0 mr-lg-4">
                                 <!-- The below embed code snippet was copied from YouTube:  https://www.youtube.com/watch?v=K0NsebNs1Cw -->
                                 <!-- I changed the height & width property below to 100% and use the video-container set the size using CSS -->
                                 <!-- Autoplay is off by default -->
@@ -487,7 +487,7 @@
                             </div>
                             <div>
                                 <h4 class="text-uppercase font-weight-bold">Match Summary</h4>
-                                <div class="match-summary">
+                                <div class="text-center text-lg-left">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet tellus at ligula mollis eleifend nec sed elit. Nulla id ultricies ligula, quis pellentesque erat. In bibendum velit non felis pretium, eu placerat lectus suscipit. Mauris faucibus, felis vitae euismod ullamcorper, mi dui pharetra magna, a placerat lacus nunc ornare ante. Morbi non arcu id metus aliquet accumsan. Sed nec erat tellus. Ut interdum velit sit amet ante dictum, eu volutpat mauris auctor. Nunc scelerisque lectus arcu, sed ultricies nibh gravida vel.</p>
                                     <p>Aliquam lacinia libero non mi placerat sagittis. Cras commodo nunc a hendrerit efficitur. Cras ullamcorper urna sit amet metus porta commodo. Maecenas a accumsan enim. Nam nec commodo arcu. Fusce eu orci hendrerit, tristique quam at, varius ex. Fusce vitae eleifend ante. Pellentesque vitae nisi vitae orci rutrum interdum. Ut dapibus hendrerit leo vel efficitur. Praesent cursus mi tellus, eget congue risus tincidunt vel. Vestibulum et turpis risus. Nunc id ex vel sem dignissim sagittis. Curabitur posuere elit condimentum, ultricies mauris in, consectetur mi. Donec justo dolor, pellentesque eu ante in, rutrum ultrices massa.</p>
                                     <p>Sed ac laoreet lacus. Maecenas volutpat, metus eget blandit interdum, quam odio convallis arcu, quis consectetur ligula justo ac sem. Donec eget lectus consequat, consectetur dolor eu, tristique erat. Praesent porta sagittis lacus ut mattis. Etiam ac nibh vel lacus fringilla egestas. Pellentesque erat arcu, pellentesque et vehicula at, pulvinar ac quam. Proin mi erat, dictum et sem sed, facilisis elementum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
@@ -527,7 +527,7 @@
                 <!--Footer 3rd column contains author name - visible on medium screen sizes and up-->
                 <div class="col-md-4 col-lg-3 d-none d-md-inline text-right text-nowrap">
                         <div>Contact: Luke Garnham</div>
-                        <a href="mailto:lgarnham@fake-email.com" class="a__hover--grey">lgarnham@fake-email.com</a>
+                        <a href="mailto:lgarnham@fake-email.com" class="a__hover--underline">lgarnham@fake-email.com</a>
                         <div>07777 123456</div>
                 </div>
             </div>
