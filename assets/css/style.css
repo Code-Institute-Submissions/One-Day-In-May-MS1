@@ -253,6 +253,11 @@ a:hover {
     background-color: #ffffff;
 }
 
+.text-image {
+    max-width: 50%;
+    max-height: 200px;
+}
+
 .promotion-cut-off {
     border-bottom: 2px dashed #000000;
 }
@@ -419,6 +424,9 @@ a:hover {
         border: none;
     }
 
+    .text-image {
+        max-width: 100%;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs - sm screen)*/
