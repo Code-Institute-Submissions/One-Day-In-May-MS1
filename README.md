@@ -1,9 +1,9 @@
 # One Day In May
 
-My project is aimed at supporters of Ipswich Town Football Club.  The club and fans recently marked 20 years since they won promotion to the Premier League with former players joining podcasts and local radio stations to discuss their team mates, the highs and lows of the thrilling trilogy of playoff matches and the celebrations that followed.
+My project is aimed at supporters of Ipswich Town Football Club.  The club and fans recently marked 20 years since they won promotion to the Premier League with former players joining podcasts and local radio stations to discuss their team mates, the highs and lows of the thrilling trilogy of play-off matches and the celebrations that followed.
 
 My website serves as a hub for fans to relive the experience and for younger fans who weren't around at the time, to learn about what happened and who the players were.  Along with the homepage, I have focused on 3 pages:
-- Highlights - I have embedded YouTube highlights of the 3 games and a description of what happened in each.
+- Highlights - I have embedded YouTube highlights of the 3 games and a report of what happened in each.
 - Meet the Players - This page introduces some of the key players and their contributions.  There is a photo gallery for each player.
 - Share - I invite users to share their memories of the playoffs by completing a form.
 
