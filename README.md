@@ -71,9 +71,15 @@ I used the following languages, frameworks and libraries to build this website:
 
 The ITFC logo and "One Day In May" text appears in the header (although the ITFC logo disapears on extra-small and small screens).  They act as a shortcut to the Home page.  Early on in the project I noticed that when hovering over them, a blue line appeared underneath them when I hovered over them.  This is built in behaviour which effects all achor elements.  To fix this, I created a pseudo-class in my [CSS](assets/css/style.css) to remove all text decoration from anchor elements.  This enabled me to then style anchor elements how I wanted and removed the unwanted blue line appearing under the logo and text in my header when I hovered over them.
 
-When I was building the navigation bar, I wanted to separate each navigation link with a horizontal white line.  I decided the easiest way to do this was add a border so I added a right-border to the first 3 elements.  But when I did this which then created two problems.  The first problem was that these borders appeared when the navigation links were compressed behind the toggle icon.  I created a [CSS](assets/css/style.css) media rule to remove the borders on exrta-small screens.  The second problem is that when the screen width is around 576px - 600px, the Meet the Players link wraps across two rows.  When this happened, the right-border was double the length of the others.  To ensure the borders remained the same height, I applied a right-border to the first two navigation links, no border to the Meet the Players link and a left-border to the Share link.
+When I was building the navigation bar, I wanted to separate each navigation link with a horizontal white line.  I decided the easiest way to do this was add a border so I added a right-border to the first 3 elements.  But when I did this which then created two problems.  The first problem was that these borders appeared when the navigation links were compressed behind the toggle icon.  I created a [CSS](assets/css/style.css) media rule to remove the borders on exrta-small screens.  The second problem is that when the screen width is around 576px - 600px, the Meet the Players link wraps across two rows.  When this happened, the right-border was a lot longer than the length of the others.  To ensure the borders remained the same height, I applied a right-border to the first two navigation links, no border to the Meet the Players link and a left-border to the Share link.
+
 ![The result of the border rules applied to the navigation links.](assets/images/navigation-links.png)
 
+On the Home page, I used Bootstrap to change the layout of the 3 shortcut icons.  However, because the Bootstrap column widths are responsize, as the screen width changed, the size of the icon container changed.  But because I used a FontAwesome icon which is a text element, it was not responsive - the font size was fixed.  I tried a variety of font-sizes but was finding that one font-size was not appropriate as it would either make the icons look too big on small screens and/or too small on big screens.  I could have set up media-queries to change the font size at various breakpoints.  However, opted to use a viewport width font-size.  This ensures the icon size changes as the width of the screen and thus the column and containers change.  Working from large screens down to small, when the medium screen size (width = 768px) is reached, the shortcuts vertically align meaning each one has more width on screen.  at this point, I felt the icons were too small so created a media-query rule to increase the font-size to a larger viewport width.
+
+On the Highlights page, I initially had the score displayed in one row with the goalscorers for each team in a second row underneath.  The first row contained columns for the home team, home team score, away team score and away team.  The second row contained columns for the home team goalscorers and the away team goalscorers.  This layout looked good on larger screens but on smaller screen sizes, the team names and goalscorers became cramped and was not visually pleasing.  To resolse this, I put all elements into one row but changed the column sizes so that on mediums screens, the goalscorers would automatically overflow underneath.  I also used the Bootstrap order class to change the order of each item.  The result is that on extra-small and small screen sizes, the home team and home team score appears beside each other with the goalscorers underneath, then underneath that the same layout is repeated for the away team.  But on medium size screens and up, the layout appears the same way as I originally intended.
+
+### Further Tests
 
 1. Home page:
     1. All links tested.  Internal links all work.  External links all work and open in new window.
@@ -87,7 +93,23 @@ When I was building the navigation bar, I wanted to separate each navigation lin
     2. Several internal links have been added to enable users to navigate content on the page more easily.  Some reports are quite long so these links were added to avoid users having to scroll up and down the page and thus improve user experience.
     3. During testing of the page, I noticed that the background text would align left once the Bootstrap small screen size was reached whilst the text in the highlights section below would only align left once Bootstraps large screen was reached.  To ensure consitent flow of the page, I ensured that all text alignments on the page changed at the same screen size; up to small breakpoint (576px) the text is center-aligned and above this, aligns left.  This is the same breakpoint at which images are centered on their own or floated next to the text.  This consistency will improve user experience.
     4. Having made the above fix, I am confident the page is responsive and looks good on all screen sizes.
+    5. The background section and match reports enable users to learn more about the play-off matches.
+    6. The YouTube videos and images enable users to experience the play-off matches.
 
+3. Meet the Players page:
+    1. All links tested.  Internal links all work.  External links all work and open in new window.
+    2. The page is responsive and looks good on all screen sizes.
+    3. All modals open as expected and close as expected when clicking either the cross button, close button or clicking outside of the modal.
+    4. All images in the modal open the Lightbox at the correct part of the slideshow.
+    5. The contents of the modals enable users to learn more about some of the players and they can read further by opening their Wikipedia page (in a new window) using the link provided.
+
+4. Share page:
+    1. All links tested.  Internal links all work.  External links all work and open in new window.
+    2. The page is responsive and looks good on all screen sizes.
+    3. The form contains two required fields, name and email address.  If either of these are blank when the user tries to submit the form, default error messages appear.
+    4. If the user doesn't enter a valid email address, the default error message notifies them.
+    5. The Reset button behaves as expected.
+    6. The Send button posts the form data to Code Institutes form dump page as expected.
 
 ## Deployment
 
@@ -97,16 +119,34 @@ This webpage has been deployed to [GitHub pages](https://lukegarnham.github.io/O
 
 ### content
 
+Where code has been copied from an external source, I have referenced this in the code through comments.  In many cases, the copied snippet has been amended from the source in order to achieve the desired result for this project.  I have listed the various sources below as well.
+
+**Head**
 - All CDN links copied from the respective sources - see links above in the **"Technologies Used"** section.
-- In the nav element, the code used to create a toggle menu on small screen sizes was copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
+- The FavIcon code snippet was generated and copied across from the [FavIcon website](https://www.favicon-generator.org/).
+
+**Header**
+- In the header, the nav element code used to create a toggle menu on small screen sizes was copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
+
+**Highlights page**
 - On the Highlights page, I created tabs to separate the highlights of the 3 matches.  I copied code from Bootstrap to achieve this:  https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior
 
-**TBC**
+**Meet the Players**
+- A portion of HTML code and CSS code was copied from [this website](https://www.w3schools.com/howto/howto_css_flip_card.asp) in order to create the flip-card effect on the player images.  Some of the style rules were amended to suit the desired needs of this webpage.
+- The code for the player modals was copied from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/#vertically-centered).  The actual contents of the modals is original work and has not been copied.
+- The [Lightbox CSS library](assets/css/lightbox.css) and [Lightbox jquery file](assets/javascript/lightbox-plus-jquery.js) were downloaded in their entirety from [this website](https://www.lokeshdhakar.com/projects/lightbox2/#getting-started).
 
 ### Media
 
-**TBC**
+**YouTube**
+- The YouTube videos of the 3 play-off matches are all ones recently posted by the official ITFC YouTube channel recently to mark the 20 year anniversary.
+    1. [Game 1](https://www.youtube.com/watch?v=uzy3y_B1LJ0)
+    2. [Game 2](https://www.youtube.com/watch?v=vYSh2FyACbM)
+    3. [Game 3](https://www.youtube.com/watch?v=K0NsebNs1Cw)
 
-### Acknowledgements
-
-**TBC**
+    **Images**
+    - The images used in the project have been found using Google searches.  Unfortunately, there is no freely available repository for the images required.  I found a series of high quality images on [Getty Images](https://www.gettyimages.co.uk/) all of which have a watermark on unless they are purchased.  This meant some of the images used in the website are not high resolution/high quality though I did try to use the best images freely available.
+    - Some images were found in recent news articles which were published to mark the 20 year anniversary of the teams promotion.
+        - [Article 1](https://www.twtd.co.uk/ipswich-town-news/38311)
+        - [Article 2](https://www.eadt.co.uk/sport/ipswich-town-v-bolton-play-off-semi-final-1-6652862)
+        - [Article 3](https://www.eadt.co.uk/sport/ipswich-town-win-at-wembley-may-2000-1-6675069)
