@@ -117,7 +117,7 @@ This webpage has been deployed to [GitHub pages](https://lukegarnham.github.io/O
 
 ## Credits
 
-### content
+### Content
 
 Where code has been copied from an external source, I have referenced this in the code through comments.  In many cases, the copied snippet has been amended from the source in order to achieve the desired result for this project.  I have listed the various sources below as well.
 
@@ -126,10 +126,10 @@ Where code has been copied from an external source, I have referenced this in th
 - The FavIcon code snippet was generated and copied across from the [FavIcon website](https://www.favicon-generator.org/).
 
 **Header**
-- In the header, the nav element code used to create a toggle menu on small screen sizes was copied from Bootstrap: https://getbootstrap.com/docs/4.5/components/navbar/#nav
+- In the header, the nav element code used to create a toggle menu on small screen sizes was copied from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/#nav).
 
 **Highlights page**
-- On the Highlights page, I created tabs to separate the highlights of the 3 matches.  I copied code from Bootstrap to achieve this:  https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior
+- On the Highlights page, I created tabs to separate the highlights of the 3 matches.  I copied code from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navs/#javascript-behavior) to achieve this.
 
 **Meet the Players**
 - A portion of HTML code and CSS code was copied from [this website](https://www.w3schools.com/howto/howto_css_flip_card.asp) in order to create the flip-card effect on the player images.  Some of the style rules were amended to suit the desired needs of this webpage.
@@ -144,9 +144,9 @@ Where code has been copied from an external source, I have referenced this in th
     2. [Game 2](https://www.youtube.com/watch?v=vYSh2FyACbM)
     3. [Game 3](https://www.youtube.com/watch?v=K0NsebNs1Cw)
 
-    **Images**
-    - The images used in the project have been found using Google searches.  Unfortunately, there is no freely available repository for the images required.  I found a series of high quality images on [Getty Images](https://www.gettyimages.co.uk/) all of which have a watermark on unless they are purchased.  This meant some of the images used in the website are not high resolution/high quality though I did try to use the best images freely available.
-    - Some images were found in recent news articles which were published to mark the 20 year anniversary of the teams promotion.
-        - [Article 1](https://www.twtd.co.uk/ipswich-town-news/38311)
-        - [Article 2](https://www.eadt.co.uk/sport/ipswich-town-v-bolton-play-off-semi-final-1-6652862)
-        - [Article 3](https://www.eadt.co.uk/sport/ipswich-town-win-at-wembley-may-2000-1-6675069)
+**Images**
+- The images used in the project have been found using Google searches.  Unfortunately, there is no freely available repository for the images required.  I found a series of high quality images on [Getty Images](https://www.gettyimages.co.uk/) all of which have a watermark on unless they are purchased.  This meant some of the images used in the website are not high resolution/high quality though I did try to use the best images freely available.
+- Some images were found in recent news articles which were published to mark the 20 year anniversary of the teams promotion.
+    - [Article 1](https://www.twtd.co.uk/ipswich-town-news/38311)
+    - [Article 2](https://www.eadt.co.uk/sport/ipswich-town-v-bolton-play-off-semi-final-1-6652862)
+    - [Article 3](https://www.eadt.co.uk/sport/ipswich-town-win-at-wembley-may-2000-1-6675069)
