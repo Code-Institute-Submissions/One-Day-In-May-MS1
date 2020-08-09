@@ -5,15 +5,21 @@ My project is aimed at supporters of Ipswich Town Football Club.  The club and f
 My website serves as a hub for fans to relive the experience and for younger fans who weren't around at the time, to learn about what happened and who the players were.  Along with the homepage, I have focused on 3 pages:
 - Highlights - I have embedded YouTube highlights of the 3 games and a report of what happened in each.
 - Meet the Players - This page introduces some of the key players and their contributions.  There is a photo gallery for each player.
-- Share - I invite users to share their memories of the playoffs by completing a form.
+- Share - I invite users to share their memories and photos of the playoffs by completing a form.
+
+## Deployment
+
+This webpage has been deployed to [GitHub pages](https://lukegarnham.github.io/One-Day-In-May-MS1/).
 
 ## UX
 
 The website is aimed at ITFC fans so I envisage users will be a variety of age ranges.  I envisage many users accessing the site on their mobile phones, perhaps during half-time of a match.  I have tried to make each page bitesize so users do not need to scroll down pages of text.
 
-Since the name of the website doesn't make it immediately clear that it is for ITFC fans, I have tried to grab users attention to let them know.  On the home page, I have used a jumbotron showing players celebrating and I have used club colours in the navigation bar.  On medium sized screens upwards, the navigation bar also features the club badge.
+**Home page**:  Since the name of the website doesn't make it immediately clear that it is for ITFC fans, I have tried to grab users attention by using a jumbotron with a background image of Ipswich players celebrating promotion.  This should grab users attention and let them know the purpose of the website.  I have also used club colours in the navigation bar and footer.  On medium sized screens upwards, the navigation bar also features the club badge while on smaller screens, the navigation links compress behind a toggle button.  There are links to the 3 other pages giving a brief description of each.  These links span horizontally on large screens and gradually move to a vertical alignment as the screen width gets smaller - this is achieved using Bootstrap's grid system.
 
-I want users to quickly learn what content the site hosts - otherwise they may leave.  To address this, I have included a brief introduction on the home page followed by links to each of the 3 pages and a short explanation of what each page contains.
+**Highlights**:  The background section is quite lengthy so I included a link at the top which enables users to jump straight down to the highlights section.  The highlights section makes use of a Bootstrap navbar which allows users to select from highlights and reports of 3 football matches without taking up too much real-estate on the page.
+
+
 
 ## Features
 

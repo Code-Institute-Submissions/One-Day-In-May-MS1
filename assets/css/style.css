@@ -2,8 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merienda+One&family=Roboto:wght@100;300;400;500;700&display=swap');
 
-/*----------------------------------------------------------------------------------------------------------*/
-
 /*----------------------------------------------------------------------------------------------------------General rules*/
 
 body {
@@ -48,6 +46,33 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------text-block--grey*/
+/*------------------------------------------------Home page - Introduction, Highlights - Background*/
+
+.text-block--grey {
+    background-color: #DDE1E4;
+}
+
+.text-block--grey h1 {
+    font-size: 32px;
+}
+
+/*----------------------------------------------------------------------------------------------------------text-block--blue*/
+/*------------------------------------------------Highlights - Highlights header*/
+
+.text-block--blue {
+    background-color: #3d3b62;
+    color: #ffffff;
+}
+
+/*----------------------------------------------------------------------------------------------------------text-block--white*/
+/*------------------------------------------------Home page - Shortcuts, Highlights - Highlights*/
+
+.text-block--white {
+    background-color: #ffffff;
+    color: #3d3b62;
 }
 
 /*----------------------------------------------------------------------------------------------------------Navbar*/
@@ -159,33 +184,6 @@ a:hover {
     font-size: 25px;
 }
 
-/*----------------------------------------------------------------------------------------------------------text-block--grey*/
-/*------------------------------------------------Home page - Introduction, Highlights - Background*/
-
-.text-block--grey {
-    background-color: #DDE1E4;
-}
-
-.text-block--grey h1 {
-    font-size: 32px;
-}
-
-/*----------------------------------------------------------------------------------------------------------text-block--blue*/
-/*------------------------------------------------Highlights - Highlights*/
-
-.text-block--blue {
-    background-color: #3d3b62;
-    color: #ffffff;
-}
-
-/*----------------------------------------------------------------------------------------------------------text-block--white*/
-/*------------------------------------------------Highlights - Highlights*/
-
-.text-block--white {
-    background-color: #ffffff;
-    color: #3d3b62;
-}
-
 /*----------------------------------------------------------------------------------------------------------Home page - Shortcuts*/
 
 .shortcuts__icon-container {
@@ -220,8 +218,6 @@ a:hover {
 .shortcuts__header {
     color: #3d3b62;
     font-size: 20px;
-    text-decoration: underline;
-    transition: transform .5s;
 }
 
 /*------------------------------------------------Home Page - Shortcuts Pseudo Classes*/
@@ -235,11 +231,6 @@ a:hover {
     background-color: #3d3b62;
     border-color: #ffffff;
 }
-
-.shortcuts__header:hover {
-    transform: scale(1.1);
-    text-decoration: underline;
-} 
 
 /*----------------------------------------------------------------------------------------------------------Highlights page - Background*/
 
@@ -445,7 +436,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
 
-    /* To make the shortcut icons responsive on the home page, I had to use viewport to size the font.  However, on mobile this makes the icons too small.  This rule make the icons and borders look better on mobile. */
+    /* To make the shortcut icons responsive on the home page, I used viewport to size the font.  However, on mobile this makes the icons too small.  This rule make the icons and borders look better on mobile. */
 
     .shortcuts__icon {
         font-size: 18vw;
@@ -471,7 +462,7 @@ a:hover {
         width: 100%;
     }
 
-    /* In the Meet the PLayer modal, on medium screen sizes down I want to align all text in the body to center. */
+    /* In the Meet the Player modal, on medium screen sizes down I want to align all text in the body to center. */
 
     .modal-body li {
         text-align: center;
