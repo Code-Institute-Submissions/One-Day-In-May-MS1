@@ -128,7 +128,7 @@ a:hover {
 /*----------------------------------------------------------------------------------------------------------Home page - Jumbotron*/
 
 .jumbotron__hero-image {
-    background-image: url("assets/images/itfc-promotion-1.jpg");
+    background-image: url("https://raw.githubusercontent.com/LukeGarnham/One-Day-In-May-MS1/master/assets/images/itfc-promotion-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
