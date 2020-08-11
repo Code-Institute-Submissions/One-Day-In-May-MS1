@@ -247,6 +247,14 @@ a:hover {
     max-height: 200px;
 }
 
+.clear--left {
+    clear: left;
+}
+
+.clear--right {
+    clear: right;
+}
+
 .promotion-cut-off {
     border-bottom: 2px dashed #000000;
 }
@@ -286,11 +294,17 @@ a:hover {
 }
 
 .video-container {
-    width: 67%;
-    height: 55vh;
+    width: 66%;
+    padding-top: 37.125%;
+    position: relative;
 }
 
 .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     border: none;
     width:100%;
     height:100%;
@@ -456,10 +470,11 @@ a:hover {
 
 @media screen and (max-width: 992px) {
     
-    /* On the highlights page, we want the YouTube video take up 100% of the width of its container.*/
+    /* On the highlights page, we want the YouTube video take up 100% of the width of its container and need to adjust the height to retain 16:9 aspect ratio.*/
     
     .video-container{
         width: 100%;
+        padding-top: 56.25%;
     }
 
     /* In the Meet the Player modal, on medium screen sizes down I want to align all text in the body to center. */
