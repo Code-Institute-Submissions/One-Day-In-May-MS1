@@ -32,9 +32,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navigation__bar">
+        <nav class="navbar navbar-expand-md navigation__bar">
             <a href="index.html" class="a__hover--grey" aria-label="Go to the Home page.">
-                <img class="navigation__image d-none d-md-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
+                <img class="navigation__image d-inline-block" src="assets/images/itfc-logo.png" alt="Ipswich Town FC logo.">
                 <span class="navbar-brand navigation__title text-uppercase align-middle">One Day In May</span>
             </a>
 
@@ -47,12 +47,18 @@
 
             <!--Navigation links (Unordered list)-->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto align-items-start align-items-sm-center">
+                <ul class="navbar-nav ml-auto align-items-start align-items-md-center">
                     <li class="nav-item navigation__link border-right--white">
                         <a href="index.html" class="nav-link a__hover--underline">Home</a>
                     </li>
-                    <li class="nav-item navigation__link border-right--white">
-                        <a href="highlights.html" class="nav-link a__hover--underline">Highlights</a>
+                    <li class="nav-item dropdown navigation__link border-right--white">
+                        <a href="#" class="nav-link dropdown-toggle text-left text-md-center a__hover--underline" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Highlights
+                        </a>
+                        <div class="dropdown-menu navigation__dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="highlights.html#background" class="d-block text-left text-md-center pl-4 pl-md-0 pb-1 a__hover--underline">The Background</a>
+                            <a href="highlights.html#highlights" class="d-block text-left text-md-center pl-4 pl-md-0 a__hover--underline">Watch Highlights</a>
+                        </div>
                     </li>
                     <li class="nav-item navigation__link">
                         <a href="meet-the-players.html" class="nav-link a__hover--underline">Meet the Players</a>

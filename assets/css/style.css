@@ -96,6 +96,14 @@ a:hover {
     font-family: 'Didact Gothic', sans-serif;
 }
 
+.navigation__dropdown-menu {
+    background-color: #3d3b62;
+    color: #ffffff;
+    border: none;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
 .border-right--white {
     border-right: 1px solid #ffffff;
 }
@@ -435,12 +443,6 @@ a:hover {
 
 @media screen and (max-width: 576px) {
 
-    /* Ensure the navigation links borders don't show  on mobile nav links*/
-
-    .navigation__link {
-        border: none;
-    }
-
     .text-image {
         max-width: 100%;
     }
@@ -449,6 +451,19 @@ a:hover {
 /*----------------------------------------------------------------------------------------------------------Media Queries (xs - sm screen)*/
 
 @media screen and (max-width: 768px) {
+
+    /* Ensure the navigation links borders don't show  on mobile nav links*/
+
+    .navigation__link {
+        border: none;
+    }
+
+    /* Fix the alignment of the dropdown menu on small screens. */
+
+    .navigation__dropdown-menu {
+    transform: translate(0, 0);
+}
+
 
     /* To make the shortcut icons responsive on the home page, I used viewport to size the font.  However, on mobile this makes the icons too small.  This rule make the icons and borders look better on mobile. */
 
