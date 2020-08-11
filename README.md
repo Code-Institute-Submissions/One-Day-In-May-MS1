@@ -147,6 +147,6 @@ Where code has been copied from an external source, I have referenced this in th
 **Images**
 - The images used in the project have been found using Google searches.  Unfortunately, there is no freely available repository for the images required.  I found a series of high quality images on [Getty Images](https://www.gettyimages.co.uk/) all of which have a watermark on unless they are purchased.  This meant some of the images used in the website are not high resolution/high quality though I did try to use the best images freely available.
 - Some images were found in recent news articles which were published to mark the 20 year anniversary of the teams promotion.
-    - [Article 1](https://www.twtd.co.uk/ipswich-town-news/38311)
-    - [Article 2](https://www.eadt.co.uk/sport/ipswich-town-v-bolton-play-off-semi-final-1-6652862)
-    - [Article 3](https://www.eadt.co.uk/sport/ipswich-town-win-at-wembley-may-2000-1-6675069)
+    1. [Article 1](https://www.twtd.co.uk/ipswich-town-news/38311)
+    2. [Article 2](https://www.eadt.co.uk/sport/ipswich-town-v-bolton-play-off-semi-final-1-6652862)
+    3. [Article 3](https://www.eadt.co.uk/sport/ipswich-town-win-at-wembley-may-2000-1-6675069)
