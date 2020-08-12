@@ -87,6 +87,19 @@ On the Home page, I used Bootstrap to change the layout of the 3 shortcut icons.
 
 On the Highlights page, I initially had the score displayed in one row with the goalscorers for each team in a second row underneath.  The first row contained columns for the home team, home team score, away team score and away team.  The second row contained columns for the home team goalscorers and the away team goalscorers.  This layout looked good on larger screens but on smaller screen sizes, the team names and goalscorers became cramped and was not visually pleasing.  To resolse this, I put all elements into one row but changed the column sizes so that on mediums screens, the goalscorers would automatically overflow underneath.  I also used the Bootstrap order class to change the order of each item.  The result is that on extra-small and small screen sizes, the home team and home team score appears beside each other with the goalscorers underneath, then underneath that the same layout is repeated for the away team.  But on medium size screens and up, the layout appears the same way as I originally intended.
 
+### Speed Tests
+
+I ran speed tests on each page using [GTmetrix](https://gtmetrix.com/).  Following this, I reduced all of the images on my website using [tinyPNG](https://tinypng.com/).  I also replaced the [Lightbox jquery file](assets/javascript/lightbox-plus-jquery.min.js) with a compressed version.  I then ran the speed tests again to check whether the performance of the website has improved:
+
+![Home page initial test](assets/images/speed-tests/home-initial-test.png)
+![Home page second test](assets/images/speed-tests/home-second-test.png)
+![Highlights page initial test](assets/images/speed-tests/highlights-initial-test.png)
+![Highlights page second test](assets/images/speed-tests/highlights-second-test.png)
+![Meet the Players page initial test](assets/images/speed-tests/meet-the-players-initial-test.png)
+![Meet the Players page second test](assets/images/speed-tests/meet-the-players-second-test.png)
+![Share page initial test](assets/images/speed-tests/share-initial-test.png)
+![Share page second test](assets/images/speed-tests/share-second-test.png)
+
 ### Further Tests
 
 1. Home page:
@@ -153,7 +166,7 @@ Where code has been copied from an external source, I have referenced this in th
 **Meet the Players**
 - A portion of HTML code and CSS code was copied from [this website](https://www.w3schools.com/howto/howto_css_flip_card.asp) in order to create the flip-card effect on the player images.  Some of the style rules were amended to suit the desired needs of this webpage.
 - The code for the player modals was copied from [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/#vertically-centered).  The actual contents of the modals is original work and has not been copied.
-- The [Lightbox CSS library](assets/css/lightbox.css) and [Lightbox jquery file](assets/javascript/lightbox-plus-jquery.js) were downloaded in their entirety from [this website](https://www.lokeshdhakar.com/projects/lightbox2/#getting-started).
+- The [Lightbox CSS library](assets/css/lightbox.css) and [Lightbox jquery file](assets/javascript/lightbox-plus-jquery.min.js) were downloaded in their entirety from [this website](https://www.lokeshdhakar.com/projects/lightbox2/#getting-started).
 
 ### Media
 
