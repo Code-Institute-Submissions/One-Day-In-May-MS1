@@ -1,5 +1,4 @@
-![ITFC logo](assets/images/itfc-logo.png =128x160)
-![Responsive image with many different monitors](assets/images/responsive.png)
+![ITFC logo](assets/images/itfc-logo.png)
 
 ***
 
