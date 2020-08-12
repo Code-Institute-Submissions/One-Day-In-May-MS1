@@ -1,3 +1,7 @@
+![alt text](assets/images/itfc-logo.png =x250 "ITFC logo")
+
+***
+
 # One Day In May
 
 My project is aimed at supporters of Ipswich Town Football Club.  The club and fans recently marked 20 years since they won promotion to the Premier League with former players joining podcasts and local radio stations to discuss their team mates, the highs and lows of the thrilling trilogy of play-off matches and the celebrations that followed.
@@ -6,6 +10,8 @@ My website serves as a hub for fans to relive the experience and for younger fan
 - Highlights - I have embedded YouTube highlights of the 3 games and a report of what happened in each.
 - Meet the Players - This page introduces some of the key players and their contributions.  There is a photo gallery for each player.
 - Share - I invite users to share their memories and photos of the playoffs by completing a form.
+
+***
 
 ## UX
 
@@ -30,6 +36,8 @@ Users:
 
 ![Responsive image with many different monitors](assets/images/responsive.png)
 
+***
+
 ## Features
 
 ### Existing features
@@ -52,6 +60,8 @@ If I was to continue the development of this website, I would look to add:
 - A "What Happened Next" page which explains what happened to the team and the players after winning promotion.
 - More players to the Meet the Players page, possibly adding the full squad and manager.  Time constraints meant I only focused on 6 players up to now.
 
+***
+
 ## Technologies Used
 
 I used the following languages, frameworks and libraries to build this website:
@@ -64,6 +74,8 @@ I used the following languages, frameworks and libraries to build this website:
 - [FavIcon](https://www.favicon-generator.org/) - This webpage was used to create the small favicon which appears in the webpage tab.  I used the football club logo which appears in the header.
 
 **Not used**:  [Hover](https://ianlunn.github.io/Hover/) - Early on in the project, I did add this library thinking that I would utilise it to apply extra hover effects to various elements.  However, as I developed the project, I found that using CSS hover effects was giving me the results I was looking to acheive.  Thus I ended up removing this CSS library and HTML links from my project.
+
+***
 
 ## Testing
 
@@ -83,6 +95,7 @@ On the Highlights page, I initially had the score displayed in one row with the 
     3. The user is able to quickly see that the website is related to Ipswich Town by way of the jumbotron background image and on larger screens, the ITFC logo in the header.
     4. The introduction section underneath the jumbotron give context about the website meaning users are quickly able to identify if the website is of interest to them.
     5. The shortcuts links underneath the introduction ensure users can identify what content is available and how to access it.
+    6. Code has been successfully tested through the [Markup Validator](https://validator.w3.org/)
 
 2. Highlights page:
     1. All links tested.  Internal links all work.  External links all work and open in new window.
@@ -91,6 +104,7 @@ On the Highlights page, I initially had the score displayed in one row with the 
     4. Having made the above fix, I am confident the page is responsive and looks good on all screen sizes.
     5. The background section and match reports enable users to learn more about the play-off matches.
     6. The YouTube videos and images enable users to experience the play-off matches.
+    7. Code has been successfully tested through the [Markup Validator](https://validator.w3.org/)
 
 3. Meet the Players page:
     1. All links tested.  Internal links all work.  External links all work and open in new window.
@@ -98,6 +112,7 @@ On the Highlights page, I initially had the score displayed in one row with the 
     3. All modals open as expected and close as expected when clicking either the cross button, close button or clicking outside of the modal.
     4. All images in the modal open the Lightbox at the correct part of the slideshow.
     5. The contents of the modals enable users to learn more about some of the players and they can read further by opening their Wikipedia page (in a new window) using the link provided.
+    6. Code has been successfully tested through the [Markup Validator](https://validator.w3.org/)
 
 4. Share page:
     1. All links tested.  Internal links all work.  External links all work and open in new window.
@@ -106,10 +121,18 @@ On the Highlights page, I initially had the score displayed in one row with the 
     4. If the user doesn't enter a valid email address, the default error message notifies them.
     5. The Reset button behaves as expected.
     6. The Send button posts the form data to Code Institutes form dump page as expected.
+    7. Code has been successfully tested through the [Markup Validator](https://validator.w3.org/)
+
+5. style.css
+    1. 6. Code has been successfully tested through the [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+***
 
 ## Deployment
 
 This webpage has been deployed to [GitHub pages](https://lukegarnham.github.io/One-Day-In-May-MS1/).
+
+***
 
 ## Credits
 
