@@ -1,4 +1,4 @@
-![ITFC logo](assets/images/itfc-logo.png)
+![ITFC logo](assets/images/itfc-logo-2.png)
 
 ***
 
